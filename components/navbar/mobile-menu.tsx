@@ -7,7 +7,7 @@ import Link from "next/link";
 import ThemeToggler from "./theme-toggler";
 
 const MobileMenu = () => {
-  const { isOpen } = useToggle();
+  const { isOpen, handleToggle } = useToggle();
   return (
     <ul
       className={cn(
@@ -17,7 +17,9 @@ const MobileMenu = () => {
     >
       {Routes.map((route) => (
         <li key={route.label}>
-          <Link href={route.path}>{route.label}</Link>
+          <Link href={route.path} onClick={handleToggle}>
+            {route.label}
+          </Link>
         </li>
       ))}
       <div className="absolute bottom-5">
