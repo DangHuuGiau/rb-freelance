@@ -33,9 +33,6 @@ const Projects = () => {
             slidesToScroll: "auto",
           }}
           plugins={[plugin.current]}
-          className="w-fi"
-          // onMouseEnter={plugin.current.stop}
-          // onMouseLeave={plugin.current.reset}
         >
           <CarouselContent>
             {ProjectsData.works.map((project, index) => (

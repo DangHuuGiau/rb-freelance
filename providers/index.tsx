@@ -2,15 +2,18 @@
 
 import { ToggleProvider } from "./toggle-provider";
 import { ThemeProvider } from "next-themes";
+import { LazyMotion, domAnimation } from "framer-motion";
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <ToggleProvider>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
-        </ThemeProvider>
-      </ToggleProvider>
+      <LazyMotion features={domAnimation} strict>
+        <ToggleProvider>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            {children}
+          </ThemeProvider>
+        </ToggleProvider>
+      </LazyMotion>
     </>
   );
 };

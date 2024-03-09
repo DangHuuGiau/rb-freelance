@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Providers from "@/providers";
 import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/footer";
 
 const work_sans = Work_Sans({
   subsets: ["latin"],
@@ -24,13 +25,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${work_sans.className} ${work_sans.variable} dar`}
+      className={`${work_sans.className} ${work_sans.variable}`}
       suppressHydrationWarning
     >
-      <body className="transition duration-300 relative">
+      <body className="transition duration-300 relative antialiased">
         <Providers>
           <Navbar />
           {children}
+          <Footer />
           <Toaster position="top-right" richColors />
         </Providers>
       </body>

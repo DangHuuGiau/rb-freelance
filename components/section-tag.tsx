@@ -1,8 +1,19 @@
+"use client";
+
+import { m } from "framer-motion";
+import { slideUpVariants } from "./animations";
+
 const SectionTag = ({ children }: { children: React.ReactNode }) => {
   return (
-    <p className="text-center text-xs text-secondary capitalize font-medium">
+    <m.p
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.5 }}
+      variants={slideUpVariants}
+      className="text-center text-xs text-secondary capitalize font-medium"
+    >
       {children}
-    </p>
+    </m.p>
   );
 };
 

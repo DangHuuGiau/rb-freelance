@@ -10,7 +10,7 @@ import ThemeToggler from "./theme-toggler";
 const DesktopMenu = () => {
   const pathname = usePathname();
   return (
-    <ul className="hidden md:flex capitalize md:gap-10 lg:gap-12 md:text-sm lg:text-[15px] whitespace-nowrap">
+    <ul className="hidden md:flex capitalize md:gap-10 lg:gap-12 md:text-sm lg:text-[15px] whitespace-nowrap items-center">
       {Routes.map((route) => (
         <li key={route.label}>
           <Link

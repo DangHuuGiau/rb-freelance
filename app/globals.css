@@ -44,7 +44,7 @@
     --secondary: 24 62% 54%;
     --secondary-foreground: 210 40% 98%;
     --header-foreground: 150 12% 97%;
-    --body-foreground: 224 22% 90%;
+    --body-foreground: 224 6% 77%;
     --card: 0 0% 13%;
     --secondary-background: 0 0% 13%;
 
@@ -83,6 +83,7 @@
 .nav-link::after {
   content: "";
   position: absolute;
+  /* background-color: #2b6462; */
   background-color: #2947a9;
   width: 1rem;
   left: 50%;
