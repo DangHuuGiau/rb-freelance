@@ -10,18 +10,14 @@ const Reputation = () => {
       <Wrapper>
         <SectionTag>{ReputationData.tag}</SectionTag>
         <div className="mt-10">
-          <SlideUpTransition viewport={{ amount: 0.2 }} custom={2}>
+          <SlideUpTransition amount={0.2} custom={2}>
             <h2 className="text-center text-2xl font-semibold text-headerFg mb-8">
               {ReputationData.title}
             </h2>
           </SlideUpTransition>
           <ul className="flex flex-col md:flex-row gap-7 md:gap-5 items-center justify-center">
             {ReputationData.reasons.map((item, i) => (
-              <SlideUpTransition
-                key={item.title}
-                viewport={{ amount: 0.5 }}
-                custom={i}
-              >
+              <SlideUpTransition key={item.title} amount={0.5} custom={i}>
                 <li className="flex flex-col gap-2 items-center justify-center border border-muted dark:border-card h-44 px-3 w-full sm:w-72 text-center rounded-sm bg-card">
                   <Image
                     src={item.iconUrl}

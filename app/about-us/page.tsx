@@ -1,15 +1,19 @@
 import CoreValues from "@/components/about-us/core-values";
 import Header from "@/components/about-us/header";
-import MeetTheTeam from "@/components/about-us/meet-the-team";
+import OurAchievements from "@/components/about-us/our-achievements";
 import OurHistory from "@/components/about-us/our-history";
+import { Team } from "@/components/about-us/team";
+import { CTA } from "@/components/cta";
 
 export default function About() {
   return (
-    <main>
+    <>
       <Header />
       <OurHistory />
       <CoreValues />
-      {/* <MeetTheTeam /> */}
-    </main>
+      <OurAchievements />
+      <Team />
+      <CTA />
+    </>
   );
 }

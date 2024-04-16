@@ -14,6 +14,8 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import React from "react";
+import CustomButton from "../custom-button";
+import { Button } from "../ui/button";
 
 const Projects = () => {
   const plugin = React.useRef(
@@ -23,9 +25,19 @@ const Projects = () => {
     <section className="bg- py-20">
       <SectionTag>{ProjectsData.tag}</SectionTag>
       <Wrapper className="mt-10">
-        <h2 className="capitalize text-2xl text-headerFg mb-10 font-semibold">
-          {ProjectsData.title}
-        </h2>
+        <div className="mb-10 space-y-4">
+          <h2 className="capitalize text-2xl text-headerFg font-semibold">
+            {ProjectsData.title}
+          </h2>
+          <div className="flex justify-between">
+            <p className="text-sm max-w-2xl">
+              Discover our curated collection of standout projects. Each listing
+              showcases remarkable constructions and investments available
+              through our company.
+            </p>
+            <Button variant="outline">View all Projects</Button>
+          </div>
+        </div>
         <Carousel
           opts={{
             align: "center",

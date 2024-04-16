@@ -7,24 +7,21 @@ interface SlideInProps {
   children: React.ReactNode;
   className?: string;
   custom?: number;
-  viewport?: {
-    amount?: number;
-    once?: boolean;
-  };
+  amount?: number;
 }
 
 const SlideUpTransition = ({
   children,
   className,
   custom,
-  viewport,
+  amount,
 }: SlideInProps) => {
   return (
     <m.div
       initial="hidden"
       whileInView="visible"
       custom={custom}
-      viewport={viewport}
+      viewport={{ amount, once: true }}
       variants={slideUpVariants}
       className={className}
     >
@@ -37,14 +34,14 @@ const SlideRightTransition = ({
   children,
   className,
   custom,
-  viewport,
+  amount,
 }: SlideInProps) => {
   return (
     <m.div
       initial="hidden"
       whileInView="visible"
       custom={custom}
-      viewport={viewport}
+      viewport={{ amount, once: true }}
       variants={slideRightVariants}
       className={className}
     >

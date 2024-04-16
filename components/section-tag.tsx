@@ -8,7 +8,7 @@ const SectionTag = ({ children }: { children: React.ReactNode }) => {
     <m.p
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.5 }}
+      viewport={{ amount: 0.5, once: true }}
       variants={slideUpVariants}
       className="text-center text-xs text-secondary capitalize font-medium"
     >

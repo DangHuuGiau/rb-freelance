@@ -1,3 +1,4 @@
+import { CTA } from "@/components/cta";
 import Footer from "@/components/footer";
 import AboutUs from "@/components/home/about-us";
 import ContactUs from "@/components/home/contact-us";
@@ -9,7 +10,7 @@ import Testimonials from "@/components/home/testimonials";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Header />
       <Reputation />
       <AboutUs />
@@ -17,6 +18,7 @@ export default function Home() {
       <Projects />
       <Testimonials />
       <ContactUs />
-    </main>
+      <CTA />
+    </>
   );
 }

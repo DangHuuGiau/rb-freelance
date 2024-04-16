@@ -21,8 +21,8 @@ const Hamburger = () => {
       ></span>
       <span
         className={cn(
-          "h-[3px] inline-block bg-foreground rounded-full transition",
-          isOpen ? "opacity-0 w-full" : "opacity-100 w-[18px]"
+          "h-[3px] inline-block bg-foreground w-full rounded-full transition",
+          isOpen ? "opacity-0" : "opacity-100"
         )}
       ></span>
       <span
@@ -30,7 +30,7 @@ const Hamburger = () => {
           "h-[3px] inline-block bg-foreground rounded-full transition",
           isOpen
             ? "-rotate-45 -translate-y-[7px] w-full bg-secondary"
-            : "rotate-0 translate-y-0 w-[12px]"
+            : "rotate-0 translate-y-0 w-2/3"
         )}
       ></span>
     </div>

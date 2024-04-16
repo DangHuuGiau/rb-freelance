@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import Providers from "@/providers";
 import { Toaster } from "@/components/ui/sonner";
 import Footer from "@/components/footer";
+import { cn } from "@/lib/utils";
 
 const work_sans = Work_Sans({
   subsets: ["latin"],
@@ -23,15 +24,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${work_sans.className} ${work_sans.variable}`}
-      suppressHydrationWarning
-    >
-      <body className="transition duration-300 relative antialiased">
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          "relative antialiased text-bodyFg flex flex-col min-h-screen",
+          work_sans.className,
+          work_sans.variable
+        )}
+      >
         <Providers>
           <Navbar />
-          {children}
+          <main className="flex-grow flex-1">{children}</main>
           <Footer />
           <Toaster position="top-right" richColors />
         </Providers>

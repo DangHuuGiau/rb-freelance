@@ -9,7 +9,12 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
     <>
       <LazyMotion features={domAnimation} strict>
         <ToggleProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
             {children}
           </ThemeProvider>
         </ToggleProvider>

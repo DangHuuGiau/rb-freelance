@@ -12,7 +12,7 @@ const AboutUs = () => {
       <SectionTag>{AboutUsData.tag}</SectionTag>
       <Wrapper className="flex flex-col-reverse md:flex-row gap-10 mt-16 relative items-center">
         <SlideRightTransition
-          viewport={{ amount: 0.2 }}
+          amount={0.2}
           className="relative flex-1"
         >
           <div className="w-full rounded-sm overflow-hidden">

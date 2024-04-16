@@ -10,10 +10,12 @@ const Services = () => {
     <section className="bg-secondaryBg py-16 md:py-28">
       <SectionTag>{ServicesData.tag}</SectionTag>
       <Wrapper className="lg:w-5/6 mx-auto mt-10">
-        <SlideUpTransition custom={2}>
-          <h2 className="text-center text-2xl font-semibold text-headerFg mb-8">
-            Services
-          </h2>
+        <SlideUpTransition custom={2} className="mb-10 text-center space-y-3">
+          <h2 className="text-2xl font-semibold text-headerFg">Services</h2>
+          <p className="text-[0.9rem]">
+            Elevate your brand with our cutting-edge digital solutions designed
+            to captivate and enthrall your audience.
+          </p>
         </SlideUpTransition>
         <ul className="grid grid-cols-1 sm:grid-cols-3 sm:gap-x-10 md:gap-x-16 gap-y-7 mx-auto">
           {ServicesData.serviceList.map((service, idx) => (

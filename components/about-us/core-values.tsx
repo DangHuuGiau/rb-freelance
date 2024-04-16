@@ -1,4 +1,3 @@
-
 import { CoreValuesData } from "@/data/about-us/core-values";
 import Wrapper from "../wrapper";
 import SectionTag from "../section-tag";
