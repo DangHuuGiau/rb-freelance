@@ -6,7 +6,7 @@ export const CTA = () => {
   return (
     <div className="bg-[url('../public/images/abstract-design-light.svg')] dark:bg-[url('../public/images/abstract-design-dark.svg')] bg-no-repeat bg-[left_bottom_-6rem] py-10 border-y border-secondaryFg">
       <Wrapper className="flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="max-w-2xl lg:max-w-3xl space-y-3">
+        <div className="max-w-2xl lg:max-w-3xl space-y-3 max-md:text-center">
           <SlideRightTransition>
             <h2 className="text-headerFg md:text-2xl lg:text-3xl font-semibold">
               Embark on Your Construction Journey Today
