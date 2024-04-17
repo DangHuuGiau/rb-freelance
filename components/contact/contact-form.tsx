@@ -15,12 +15,10 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import Wrapper from "../wrapper";
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useState } from "react";
 import { contactFormSchema } from "@/lib/schema";
-import { apply } from "@/actions/contact";
 import Spinner from "../icons/spinner";
 import { toast } from "sonner";
-import { useRouter } from "next/navigation";
 import {
   Select,
   SelectContent,
@@ -31,11 +29,11 @@ import {
 } from "../ui/select";
 import { Textarea } from "../ui/textarea";
 
-const initialState = {
-  message: "",
-  status: "",
-  errors: null || undefined,
-};
+// const initialState = {
+//   message: "",
+//   status: "",
+//   errors: null || undefined,
+// };
 
 const defaultValues = {
   firstName: "",
@@ -69,35 +67,37 @@ function SubmitButton({ isPending }: { isPending: boolean }) {
 }
 
 export const ContactForm = () => {
-  const [status, setStatus] = useState<string | undefined>("");
-  const [isPending, startTransition] = useTransition();
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: defaultValues,
   });
-  const router = useRouter();
-  useEffect(() => {
-    if (Boolean(status)) {
-      if (status === "success") {
-        toast.success(
-          "Thank you for reaching out to us! Your inquiry has been successfully submitted. We'll get back to you as soon as possible."
-        );
-        form.reset(defaultValues);
-      } else {
-        toast.error(
-          "Oops! It seems there was an issue with your submission. Please review your information and try again."
-        );
-      }
-    }
-  }, [status, form, router]);
+  const [isPending, setIsPending] = useState(false);
 
   async function onSubmit(values: z.infer<typeof contactFormSchema>) {
-    startTransition(() => {
-      apply(values).then((data) => {
-        console.log(data.status);
-        setStatus(data?.status);
+    setIsPending(true);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
       });
-    });
+
+      if (!response.ok)
+        throw new Error("an error occured! message unsuccessful");
+
+      setIsPending(false);
+      toast.success(
+        "Thank you for reaching out to us! Your inquiry has been successfully submitted. We'll get back to you as soon as possible."
+      );
+      form.reset(defaultValues);
+    } catch (error) {
+      setIsPending(false);
+      toast.error(
+        "Oops! It seems there was an issue with your submission. Please review your information and try again."
+      );
+    }
   }
 
   return (
