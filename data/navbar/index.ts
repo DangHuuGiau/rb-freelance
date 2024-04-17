@@ -13,12 +13,12 @@ export const Routes: RoutesType[] = [
     label: "projects",
     path: "/projects",
   },
-  {
-    label: "services",
-    path: "/services",
-  },
+  // {
+  //   label: "services",
+  //   path: "/services",
+  // },
   {
     label: "contact us",
-    path: "/contact-us",
+    path: "/contact",
   },
 ];

@@ -17,7 +17,7 @@ export default function Home() {
       <Services />
       <Projects />
       <Testimonials />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <CTA />
     </div>
   );

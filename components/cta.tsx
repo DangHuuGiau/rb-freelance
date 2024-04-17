@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SlideRightTransition, SlideUpTransition } from "./slide-transitions";
 import { Button } from "./ui/button";
 import Wrapper from "./wrapper";
@@ -25,8 +26,8 @@ export const CTA = () => {
           </SlideRightTransition>
         </div>
         <SlideUpTransition className="w-full text-end">
-          <Button variant="secondary" className="max-md:w-full px-8">
-            Get a Quote
+          <Button variant="secondary" className="max-md:w-full px-8" asChild>
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </SlideUpTransition>
       </Wrapper>

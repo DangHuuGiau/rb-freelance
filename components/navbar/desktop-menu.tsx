@@ -17,10 +17,14 @@ const DesktopMenu = () => {
             href={route.path}
             className={cn(
               "transition relative hover:text-secondary",
-              pathname === route.path ? "nav-link" : "",
-              route.label === "contact us"
-                ? "font-semibold text-secondary hover:text-primary"
-                : ""
+              pathname === route.path &&
+                route.path !== "/contact" &&
+                "text-headerFg scale-110 cursor-default hover:text-headerFg",
+              route.path === "/contact" &&
+                "font-semibold text-white hover:text-white h-9 inline-flex items-center justify-center px-5 bg-secondary hover:bg-secondary/80 rounded-md",
+              pathname === "/contact" &&
+                route.path === "/contact" &&
+                "bg-secondaryBg hover:bg-secondaryBg text-headerFg hover:text-headerFg cursor-default"
             )}
           >
             {route.label}

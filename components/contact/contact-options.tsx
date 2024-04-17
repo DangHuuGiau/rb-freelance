@@ -3,7 +3,7 @@ import { MailFill } from "../icons/mail-fill";
 import { PhoneFill } from "../icons/phone-fill";
 import { WhatsAppFill } from "../icons/whatsapp-fill";
 import Wrapper from "../wrapper";
-import { ArrowRightIcon, ArrowTopRightIcon } from "@radix-ui/react-icons";
+import {  ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { SlideUpTransition } from "../slide-transitions";
 
 const ContactOptionsData = [
