@@ -7,13 +7,13 @@ import { CTA } from "@/components/cta";
 
 export default function About() {
   return (
-    <>
+    <div className="py-14 md:py-16">
       <Header />
       <OurHistory />
       <CoreValues />
       <OurAchievements />
       <Team />
       <CTA />
-    </>
+    </div>
   );
 }

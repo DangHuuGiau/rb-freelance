@@ -1,29 +1,26 @@
 import Wrapper from "@/components/wrapper";
 import { SlideUpTransition } from "../slide-transitions";
 
-const ContactHeader = () => {
+const ProjectsHeader = () => {
   return (
     <header className="py-12">
       <Wrapper className="h-full w-full flex flex-col items-center justify-center text-center gap-8 md:gap-10">
         <SlideUpTransition>
           <h4 className="text-secondary uppercase text-sm font-semibold">
-            Contact Us
+            Projects
           </h4>
         </SlideUpTransition>
         <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto space-y-5 md:space-y-6">
           <SlideUpTransition>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-headerFg font-medium lg:leading-[3.5rem]">
-              Reach out to Brochureware
+            <h1 className="text-3xl md:text-4xl lg:text-[2.7rem] text-headerFg font-medium lg:leading-[3.5rem]">
+              Building Dreams: Our Showcase of Exceptional Projects
             </h1>
           </SlideUpTransition>
           <SlideUpTransition custom={2}>
             <p className="text-sm md:text-base text-bodyFg">
-              Welcome to Brochureware&apos;s Contact Us page. We&apos;re here to
-              support you with any inquiries, requests, or feedback you may
-              have. Whether you&apos;re planning a construction project,
-              exploring investment opportunities, or simply want to connect,
-              we&apos;re ready to assist. Send us a message, and let&apos;s
-              begin the discussion.
+              Explore a portfolio of visually captivating and strategically
+              executed construction projects that highlight our creativity and
+              expertise.
             </p>
           </SlideUpTransition>
         </div>
@@ -32,4 +29,4 @@ const ContactHeader = () => {
   );
 };
 
-export default ContactHeader;
+export default ProjectsHeader;

@@ -6,7 +6,7 @@ import { SlideUpTransition } from "../slide-transitions";
 
 const OurHistory = () => {
   return (
-    <section className="pb-10 md:pb-16">
+    <section className="py-10 md:py-16">
       <SectionTag>{OurHistoryData.tag}</SectionTag>
       <Wrapper className="flex flex-col-reverse md:flex-row gap-10 relative items-center mt-14">
         <SlideUpTransition className="flex flex-1 flex-col gap-5 h-full relative after:absolute after:bg-primary after:top-0 after:bottom-0 after:left-0 after:w-1 after:-z-10 after:bg-blend-difference pl-3">

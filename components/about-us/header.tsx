@@ -4,16 +4,16 @@ import { SlideUpTransition } from "../slide-transitions";
 
 const Header = () => {
   return (
-    <header className="h-[80vh] md:h-[75vh]">
+    <header className="py-12">
       <Wrapper className="h-full w-full flex flex-col items-center justify-center text-center gap-8 md:gap-10">
         <SlideUpTransition>
           <h4 className="text-secondary uppercase text-sm font-semibold">
             {AboutUsHeaderData.tag}
           </h4>
         </SlideUpTransition>
-        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto">
+        <div className="w-11/12 md:w-5/6 lg:w-2/3 mx-auto space-y-5 md:space-y-6">
           <SlideUpTransition>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl mb-5 md:mb-8 text-headerFg font-medium lg:leading-[3.5rem]">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-headerFg font-medium lg:leading-[3.5rem]">
               {AboutUsHeaderData.title}
             </h1>
           </SlideUpTransition>

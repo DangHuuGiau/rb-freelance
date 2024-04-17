@@ -6,5 +6,6 @@ export interface ProjectsDataType {
     imageUrl: string;
     location: string;
     tag: string;
+    description: string;
   }[];
 }

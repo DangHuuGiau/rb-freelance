@@ -2,7 +2,7 @@
 
 import SectionTag from "@/components/section-tag";
 import Wrapper from "@/components/wrapper";
-import { ProjectsData } from "@/data/home/projects";
+import { ProjectsData } from "@/data/projects";
 import Image from "next/image";
 
 import {
@@ -50,7 +50,7 @@ const Projects = () => {
           plugins={[plugin.current]}
         >
           <CarouselContent>
-            {ProjectsData.works.map((project, index) => (
+            {ProjectsData.works.slice(0, 5).map((project, index) => (
               <CarouselItem
                 key={index}
                 className="md:basis-1/3 lg:basis-1/4 pl-0 md:ml-8 rounded-md overflow-hidden relative"
