@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: "RB Freelance",
   description:
     "RB Freelance is a team of expert freelancers offering outsourcing services, delivering high-quality solutions to clients worldwide.",
-  icons: {
-    icon: "/images/rb-freelance.ico",
-  },
 };
 
 export default function RootLayout({
@@ -30,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body
         className={cn(
