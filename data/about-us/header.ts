@@ -6,9 +6,7 @@ type AboutUsHeaderDataType = {
 
 export const AboutUsHeaderData: AboutUsHeaderDataType = {
   tag: "about us",
-  title: "Our vision is to make work inspiring and fulfilling",
-  description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-  earum rem sint incidunt et, quae, adipisci architecto esse autem id
-  blanditiis illum repellat sed ad maiores quibusdam deleniti
-  doloremque harum!`,
+  title: "Empowering Digital Innovation Through Technology Excellence",
+  description:
+    "We are a leading software development company specializing in delivering cutting-edge solutions. Our team of expert developers, designers, and engineers works collaboratively to transform your ideas into powerful, scalable applications that drive business growth.",
 };

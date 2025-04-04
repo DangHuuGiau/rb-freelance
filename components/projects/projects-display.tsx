@@ -11,16 +11,15 @@ export const ProjectsDisplay = () => {
         <div className="space-y-6 text-center">
           <SlideUpTransition className="max-w-3xl space-y-2 mx-auto">
             <h2 className="text-2xl font-medium text-headerFg">
-              At Brochureware
+              At RedBean Software
             </h2>
             <p>
               We&apos;ve been fortunate to collaborate with a diverse array of
-              clients, delivering outstanding construction projects that drive
-              success.
+              clients, delivering outstanding projects that drive success.
             </p>
           </SlideUpTransition>
           <SlideUpTransition className="px-3 py-1.5 bg-secondaryBg rounded-md text-headerFg w-fit text-sm mx-auto">
-            Here are ten standout examples of our remarkable projects:
+            Here are some standout examples of our remarkable projects:
           </SlideUpTransition>
         </div>
 

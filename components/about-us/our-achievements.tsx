@@ -6,26 +6,26 @@ import { SlideRightTransition, SlideUpTransition } from "../slide-transitions";
 
 const achievements = [
   {
-    title: "3+ Years of Excellence",
+    title: "Kickstarting Our Journey",
     description:
-      "With over 3 years in the industry, we've amassed a wealth of knowledge and experience, becoming a go-to resource for all things real estate.",
+      "Though we're a new team, we’re committed to bringing fresh perspectives and innovative solutions to the software development world.",
   },
   {
-    title: "Happy Clients",
+    title: "Building Trust with Our Clients",
     description:
-      "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do.",
+      "We may be new, but we’re dedicated to establishing strong, trustworthy relationships with every client, ensuring that their vision is brought to life with precision and care.",
   },
   {
-    title: "Industry Recognition",
+    title: "Innovating and Growing",
     description:
-      "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence.",
+      "We’re constantly learning and adapting, with a passion for technology that drives us to innovate and develop cutting-edge solutions for every project.",
   },
 ];
 
 const OurAchievements = () => {
   return (
     <section className="py-10 md:py-28">
-      <SectionTag>--- our noteworthy accomplishments ---</SectionTag>
+      <SectionTag>--- our milestones and growth ---</SectionTag>
       <Wrapper>
         <div className="text-center sm:w-5/6 lg:w-2/3 mx-auto my-10">
           <SlideUpTransition>
@@ -35,8 +35,9 @@ const OurAchievements = () => {
           </SlideUpTransition>
           <SlideUpTransition custom={2}>
             <p className="text-bodyFg text-sm md:text-base">
-              Discover our proud milestones, reflecting our expertise,
-              innovation, and success in the construction industry.
+              While we’re just starting out, we’re proud of the milestones we’ve
+              achieved in such a short time. Our growth reflects our dedication
+              and passion for delivering quality software solutions.
             </p>
           </SlideUpTransition>
         </div>
@@ -45,7 +46,7 @@ const OurAchievements = () => {
             <SlideRightTransition custom={idx} key={idx} className="h-full">
               <li
                 className={cn(
-                  "rounded px-8 py-6 h-full  shadow border-[6px] border-secondaryBg space-y-4"
+                  "rounded px-8 py-6 h-full shadow border-[6px] border-secondaryBg space-y-4"
                 )}
               >
                 <h3 className="text-lg font-medium text-headerFg whitespace-nowrap mb-1">

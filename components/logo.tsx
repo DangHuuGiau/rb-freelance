@@ -6,7 +6,7 @@ const Logo = () => {
       href="/"
       className="font-semibold text-foreground capitalize tracking-tight md:text-lg"
     >
-      Brochure<span className="italic">Ware</span>
+      RB<span className="italic text-sm">Freelance</span>
     </Link>
   );
 };

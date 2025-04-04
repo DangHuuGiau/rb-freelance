@@ -1,22 +1,10 @@
 export const OurHistoryData = {
   tag: "--- our history ---",
   paragraphs: [
-    `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ipsa eum
-    distinctio expedita perspiciatis quasi illum architecto nobis nihil
-    hic.`,
-    `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure fugit
-    deleniti esse unde ratione, distinctio recusandae et, accusantium
-    sequi odio eos facere quaerat possimus est! Sequi quo et maxime
-    laudantium.`,
-    `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure fugit
-    deleniti esse unde ratione, distinctio recusandae et.`,
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-    sapiente omnis non praesentium inventore, nihil culpa quasi iste enim
-    sunt assumenda at ex consequatur et obcaecati suscipit odit voluptates
-    eveniet nemo deleniti excepturi! Laborum, accusantium rem quam non
-    dolorem id voluptas molestias deleniti sequi quia pariatur et ipsa
-    ullam? Optio a non doloribus, voluptatum laudantium magnam fugiat
-    inventore eveniet error.`,
+    `Founded with a passion for technology, our journey began as a small, driven team aiming to provide exceptional software solutions tailored to client needs.`,
+    `Through dedication and continuous learning, we grew into a trusted partner, offering innovative software development services that empower businesses to scale and succeed.`,
+    `Our team has worked on diverse projects, from custom applications to tech consulting, always focused on delivering high-quality, scalable, and reliable solutions.`,
+    `As we continue to expand, we remain committed to providing cutting-edge technology solutions, guided by a client-first mentality, and focused on long-term collaboration and success.`,
   ],
-  mainImageUrl: "/images/home/about-us/workers.jpg",
+  mainImageUrl: "/images/home/about-us/home.avif",
 };

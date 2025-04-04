@@ -1,34 +1,34 @@
 import { ServicesDataType } from "@/types/home/services-data-type";
 
 export const ServicesData: ServicesDataType = {
-  tag: "--- what we offer ---",
-  title: "services",
+  tag: "--- our services ---",
+  title: "IT Solutions",
   serviceList: [
     {
-      label: "construction",
+      label: "Web Development",
       iconUrl: "/icons/home/services/construction.svg",
       iconUrlDark: "/icons/home/services/construction-dark.svg",
     },
     {
-      label: "renovation",
+      label: "Mobile Development",
       iconUrl: "/icons/home/services/renovation.svg",
     },
     {
-      label: "consultation",
+      label: "Cloud Solutions",
       iconUrl: "/icons/home/services/consultation.svg",
       iconUrlDark: "/icons/home/services/consultation-dark.svg",
     },
     {
-      label: "repair services",
+      label: "DevOps Services",
       iconUrl: "/icons/home/services/repair.svg",
     },
     {
-      label: "architecture",
+      label: "AI & Machine Learning",
       iconUrl: "/icons/home/services/architecture.svg",
       iconUrlDark: "/icons/home/services/architecture-dark.svg",
     },
     {
-      label: "electric",
+      label: "QA & Testing",
       iconUrl: "/icons/home/services/electric.svg",
     },
   ],

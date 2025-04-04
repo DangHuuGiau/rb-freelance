@@ -5,19 +5,21 @@ export const ReputationData: ReputationDataType = {
   title: "Our reputation",
   reasons: [
     {
-      title: "Best services",
+      title: "Exceptional Services",
       description:
-        "Nullam senectus porttitor in eget. Eget rutrum leo interdum.",
+        "We deliver high-quality solutions tailored to your needs, ensuring efficiency and satisfaction.",
       iconUrl: "/icons/home/reputation/headphone.svg",
     },
     {
-      title: "Best teams",
-      description: "Cursus semper tellus volutpat aliquet lacus.",
+      title: "Expert Team",
+      description:
+        "Our team consists of industry professionals with years of experience and a passion for excellence.",
       iconUrl: "/icons/home/reputation/headphone.svg",
     },
     {
-      title: "Best designs",
-      description: "Ultricies at ipsum nunc, tristique nam lectus.",
+      title: "Innovative Designs",
+      description:
+        "We craft modern and user-friendly designs that enhance engagement and elevate your brand.",
       iconUrl: "/icons/home/reputation/design.svg",
     },
   ],

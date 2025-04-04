@@ -17,47 +17,48 @@ type CoreValuesType = {
     description: string;
   }[];
 };
+
 export const CoreValuesData = {
-  tag: "--- What we stand for ---",
-  title: "Our core values",
+  tag: "--- Our Core Principles ---",
+  title: "Our Core Values",
   description:
-    "It takes great people to make a great product. Our company culture champions diversity and our team members embody Pipedrive's values.",
+    "We strive to deliver cutting-edge software solutions with a focus on collaboration, innovation, and continuous growth. Our core values guide every project we take on and influence the impact we create for our clients.",
   values: [
     {
       icon: <TeamIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "Team first",
+      title: "Collaborative Excellence",
       description:
-        "Discover how we put our team at the heart and support each other",
+        "We believe that the best solutions come from working closely with our clients, understanding their needs, and building together.",
     },
     {
       icon: <StarSmileIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "Reach for greatness",
+      title: "Innovation at Heart",
       description:
-        "We are brave and always trying new things to see what we can discover",
+        "We embrace new technologies and creative problem-solving to build innovative, future-proof software solutions.",
     },
     {
       icon: <SunIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "No excuses",
+      title: "Accountability & Integrity",
       description:
-        "We take responsibility and understand that where there's a will, there's way",
+        "We take full responsibility for our work and believe in delivering on our promises with honesty and transparency.",
     },
     {
       icon: <BulbIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "Internal drive",
+      title: "Passion for Learning",
       description:
-        "We are deeply passionate about our work, and this profound love for what we do",
+        "We are constantly evolving, always eager to learn, and committed to staying ahead of the curve with the latest in software development.",
     },
     {
       icon: <BookOpenIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "Be ready to learn",
+      title: "Empathy & Growth",
       description:
-        "We value open-mindedness, proactivity, and a relentless eagerness to acquire new skills",
+        "We value personal and professional growth, striving to create an environment where everyone can develop their skills and achieve their potential.",
     },
     {
       icon: <HeartIcon className="w-6 h-6" fillColor="#2947A8" />,
-      title: "Be positive vibes",
+      title: "Positive Impact",
       description:
-        "We celebrate each other's achivements and always find time to spread the love",
+        "We are committed to fostering a supportive and positive work culture that celebrates achievements and promotes well-being.",
     },
   ],
 };

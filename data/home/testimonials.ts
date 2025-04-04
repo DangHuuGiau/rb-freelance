@@ -1,31 +1,31 @@
 import { TestimonialsDataType } from "@/types/home/testimonials-data-type";
 
 export const TestimonialsData: TestimonialsDataType = {
-  tag: "--- What our client says ---",
+  tag: "--- What our clients say ---",
   reviews: [
     {
-      name: "John Doe",
-      role: "Architect",
+      name: "Nguyen Van Minh",
+      role: "Technical Director",
       comment:
-        "The construction team did an exceptional job. The attention to detail and quality of work exceeded our expectations.",
+        "RB Freelance has been a reliable partner for us. They always provide optimal solutions and complete projects on time with quality beyond our expectations.",
     },
     {
-      name: "Jane Smith",
+      name: "Tran Thi Lan",
       role: "Project Manager",
       comment:
-        "Working with this construction company was a great experience. They were professional, efficient, and delivered on time.",
+        "Working with RB Freelance has been a great experience. Their team is professional, efficient, and always delivers accurate and timely results.",
     },
     {
-      name: "Michael Johnson",
-      role: "Structural Engineer",
+      name: "Le Minh Tuan",
+      role: "Software Engineer",
       comment:
-        "I was impressed with the expertise of the construction team. They solved complex issues with ease, ensuring the project's success.",
+        "We were impressed by the technical expertise and creativity of RB Freelance. Their team efficiently solved complex issues, ensuring the success of our project.",
     },
     {
-      name: "Lateef Taiwo",
-      role: "Software Developer",
+      name: "Pham Ngoc Mai",
+      role: "CEO",
       comment:
-        "Their team is very professional and efficient in completing our project on time and at a very affordable cost. The quality of their work is very good and I highly recommend this company for any construction project.",
+        "The RB Freelance team is very professional and quick in delivering our project at a reasonable cost. The quality of their work is always assured, and I am fully satisfied with their services.",
     },
   ],
 };

@@ -9,7 +9,7 @@ import { SlideRightTransition, SlideUpTransition } from "../slide-transitions";
 
 const TeamData = [
   {
-    name: "Ridwan Taiwo",
+    name: "Phu Quoc Tran",
     role: "Co-Founder",
     image: "/images/ridwan-taiwo.jpg",
     socials: {
@@ -19,8 +19,8 @@ const TeamData = [
     },
   },
   {
-    name: "Azeezat Taiwo",
-    role: "Co-Founder",
+    name: "Giau Dang Huu",
+    role: "BA and Designer",
     image: "/images/azeezat-taiwo.jpg",
     socials: {
       instagram: "https://instagram.com/azeezattaiwo",
@@ -29,8 +29,8 @@ const TeamData = [
     },
   },
   {
-    name: "Bukola Taiwo",
-    role: "Director of people",
+    name: "Truong Nguyen",
+    role: "IT Engineer",
     image: "/images/bukola-taiwo.jpg",
     socials: {
       instagram: "https://instagram.com/bukolataiwo",
@@ -39,53 +39,13 @@ const TeamData = [
     },
   },
   {
-    name: "Samiat Khan",
-    role: "Director of Finance",
+    name: "Thanh Phuong",
+    role: "IT Engineer",
     image: "/images/samiat-khan.jpg",
     socials: {
       instagram: "https://instagram.com/boluwatife",
       twitter: "https://twitter.com/boluwatife",
       linkedin: "https://linkedin.com/in/boluwatife",
-    },
-  },
-  {
-    name: "Rene Strong",
-    role: "Head of marketing",
-    image: "/images/rene-strong.jpg",
-    socials: {
-      instagram: "https://instagram.com/rene",
-      twitter: "https://twitter.com/rene",
-      linkedin: "https://linkedin.com/in/rene",
-    },
-  },
-  {
-    name: "Cisneros Edward",
-    role: "Human resources",
-    image: "/images/cisneros-edward.jpg",
-    socials: {
-      instagram: "https://instagram.com/cisneros",
-      twitter: "https://twitter.com/cisneros",
-      linkedin: "https://linkedin.com/in/cisneros",
-    },
-  },
-  {
-    name: "Ayo  Ogunseinde",
-    role: "IT Manager",
-    image: "/images/ayo-ogunseinde.jpg",
-    socials: {
-      instagram: "https://instagram.com/ayoogunseinde",
-      twitter: "https://twitter.com/ayoogunseinde",
-      linkedin: "https://linkedin.com/in/ayoogunseinde",
-    },
-  },
-  {
-    name: "aiony haust",
-    role: "Designer",
-    image: "/images/aiony-haust.jpg",
-    socials: {
-      instagram: "https://instagram.com/aiony",
-      twitter: "https://twitter.com/aiony",
-      linkedin: "https://linkedin.com/in/aiony",
     },
   },
 ];

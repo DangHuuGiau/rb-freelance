@@ -30,17 +30,14 @@ const Testimonials = () => {
             What our Clients say About us
           </h2>
           <p className="text-[0.9rem]">
-            At Brochureware, we&apos;re dedicated to delivering exceptional
+            At RB Freelance, we&apos;re dedicated to delivering exceptional
             construction projects and services that drive success for our
             clients. Here&apos;s what some of our satisfied clients have to say
             about their experience working with us.
           </p>
         </SlideUpTransition>
         <div className="h-[20rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-          <InfiniteMovingCards
-            items={TestimonialsData.reviews}
-            speed="slow"
-          />
+          <InfiniteMovingCards items={TestimonialsData.reviews} speed="slow" />
         </div>
         {/* <Carousel
           opts={{
