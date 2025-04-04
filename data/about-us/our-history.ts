@@ -6,5 +6,5 @@ export const OurHistoryData = {
     `Our team has worked on diverse projects, from custom applications to tech consulting, always focused on delivering high-quality, scalable, and reliable solutions.`,
     `As we continue to expand, we remain committed to providing cutting-edge technology solutions, guided by a client-first mentality, and focused on long-term collaboration and success.`,
   ],
-  mainImageUrl: "/images/home/about-us/home.avif",
+  mainImageUrl: "/images/home/about-us/team.avif",
 };

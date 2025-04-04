@@ -55,13 +55,16 @@ const Projects = () => {
                 key={index}
                 className="md:basis-1/3 lg:basis-1/4 pl-0 md:ml-8 rounded-md overflow-hidden relative"
               >
-                <Image
-                  src={project.imageUrl}
-                  width={486}
-                  height={613}
-                  alt={project.name}
-                  className="object-contain object-center mx-auto"
-                />
+                <div className="top-0 left-0 w-full h-full bg-black/30 z-10">
+                  <Image
+                    src={project.imageUrl}
+                    width={486}
+                    height={613}
+                    alt={project.name}
+                    className="object-contain object-center mx-auto"
+                  />
+                </div>
+
                 <div className="absolute bottom-5 text-center w-full text-white capitalize bg-black/70 py-4">
                   <h4 className="font-medium text-xs">{project.name}</h4>
                   <p className="text-[0.65rem]">{project.tag}</p>

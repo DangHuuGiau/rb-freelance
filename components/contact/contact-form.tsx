@@ -89,7 +89,7 @@ export const ContactForm = () => {
 
       setIsPending(false);
       toast.success(
-        "Thank you for reaching out to us! Your inquiry has been successfully submitted. We&apos;ll get back to you as soon as possible."
+        "Thank you for reaching out to us! Your inquiry has been successfully submitted. We'll get back to you as soon as possible."
       );
       form.reset(defaultValues);
     } catch (error) {
@@ -107,9 +107,9 @@ export const ContactForm = () => {
           <h2 className="text-xl font-medium text-headerFg">Get In Touch</h2>
           <p className="max-sm:text-sm">
             We&apos;re eager to connect with you and discover more about your
-            construction needs. Please use the form below to reach out to
-            BrochureWare. Whether you&apos;re a potential client, partner, or
-            just interested in our services, we&apos;re here to address your
+            project needs. Please use the form below to reach out to Rb
+            Freelance. Whether you&apos;re a potential client, partner, or just
+            interested in our services, we&apos;re here to address your
             inquiries and offer the support you require.
           </p>
         </div>

@@ -5,47 +5,27 @@ import {
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
-import { SlideRightTransition, SlideUpTransition } from "../slide-transitions";
+import { SlideUpTransition } from "../slide-transitions";
 
 const TeamData = [
   {
-    name: "Phu Quoc Tran",
-    role: "Co-Founder",
-    image: "/images/ridwan-taiwo.jpg",
+    name: "Phu Quoc",
+    role: "Freelance Developer",
+    image: "/images/member1.webp",
     socials: {
-      instagram: "https://instagram.com/ridwntaiwo",
-      twitter: "https://twitter.com/ridwntaiwo",
-      linkedin: "https://linkedin.com/in/ridwntaiwo",
+      instagram: "https://instagram.com/phuquoc.dev",
+      twitter: "https://twitter.com/phuquoc.dev",
+      linkedin: "https://linkedin.com/in/phuquoc.dev",
     },
   },
   {
-    name: "Giau Dang Huu",
-    role: "BA and Designer",
-    image: "/images/azeezat-taiwo.jpg",
+    name: "Giau Dang",
+    role: "Freelance Developer",
+    image: "/images/member2.webp",
     socials: {
-      instagram: "https://instagram.com/azeezattaiwo",
-      twitter: "https://twitter.com/azeezattaiwo",
-      linkedin: "https://linkedin.com/in/azeezattaiwo",
-    },
-  },
-  {
-    name: "Truong Nguyen",
-    role: "IT Engineer",
-    image: "/images/bukola-taiwo.jpg",
-    socials: {
-      instagram: "https://instagram.com/bukolataiwo",
-      twitter: "https://twitter.com/bukolataiwo",
-      linkedin: "https://linkedin.com/in/bukolataiwo",
-    },
-  },
-  {
-    name: "Thanh Phuong",
-    role: "IT Engineer",
-    image: "/images/samiat-khan.jpg",
-    socials: {
-      instagram: "https://instagram.com/boluwatife",
-      twitter: "https://twitter.com/boluwatife",
-      linkedin: "https://linkedin.com/in/boluwatife",
+      instagram: "https://instagram.com/giaudang.dev",
+      twitter: "https://twitter.com/giaudang.dev",
+      linkedin: "https://linkedin.com/in/giaudang.dev",
     },
   },
 ];

@@ -12,7 +12,7 @@ import { ContactData } from "@/data/home/contact-us";
 import SectionTag from "@/components/section-tag";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 const formSchema = z.object({
@@ -24,7 +24,7 @@ const formSchema = z.object({
 });
 
 const ContactUs = () => {
-  // 1. Define your form.
+  const [isLoading, setIsLoading] = useState(false);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -52,8 +52,9 @@ const ContactUs = () => {
   );
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsLoading(true);
     try {
-      const response = await fetch("/api/contact-us", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -62,12 +63,14 @@ const ContactUs = () => {
       });
 
       if (!response.ok)
-        throw new Error("an error occured! message unsuccessful");
+        throw new Error("An error occurred! Message unsuccessful");
 
-      toast.success("Message sent! We&apos;ll be in touch shortly.");
+      toast.success("Message sent! We'll be in touch shortly.");
     } catch (error) {
       console.log("error", error);
       toast.error("Oops! Something went wrong. Please try again.");
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -166,8 +169,12 @@ const ContactUs = () => {
                   </FormItem>
                 )}
               />
-              <Button type="submit" className="ml-auto block">
-                Submit
+              <Button
+                type="submit"
+                className="ml-auto block"
+                disabled={isLoading}
+              >
+                {isLoading ? "Sending..." : "Submit"}
               </Button>
             </form>
           </Form>

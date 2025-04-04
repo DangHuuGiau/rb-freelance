@@ -28,5 +28,13 @@ export const ProjectsData: ProjectsDataType = {
       description:
         "VELA connects customers and logistics service providers through a single digital platform, optimizing supply chain operations.",
     },
+    {
+      imageUrl: "/images/projects/vela.webp",
+      name: "Vela web service",
+      location: "Viet Nam",
+      tag: "Web Development",
+      description:
+        "VELA connects customers and logistics service providers through a single digital platform, optimizing supply chain operations.",
+    },
   ],
 };

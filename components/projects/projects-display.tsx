@@ -11,7 +11,7 @@ export const ProjectsDisplay = () => {
         <div className="space-y-6 text-center">
           <SlideUpTransition className="max-w-3xl space-y-2 mx-auto">
             <h2 className="text-2xl font-medium text-headerFg">
-              At RedBean Software
+              At RB Freelance
             </h2>
             <p>
               We&apos;ve been fortunate to collaborate with a diverse array of

@@ -3,7 +3,7 @@ import { MailFill } from "../icons/mail-fill";
 import { PhoneFill } from "../icons/phone-fill";
 import { WhatsAppFill } from "../icons/whatsapp-fill";
 import Wrapper from "../wrapper";
-import {  ArrowTopRightIcon } from "@radix-ui/react-icons";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import { SlideUpTransition } from "../slide-transitions";
 
 const ContactOptionsData = [
@@ -23,19 +23,11 @@ const ContactOptionsData = [
     href: "#",
     linkLabel: "Start Chat",
   },
-  {
-    title: "Call us any time",
-    icon: <PhoneFill />,
-    description:
-      "Call us anything if your question requires an immediate response.",
-    href: "#",
-    linkLabel: "+234-234-2348",
-  },
 ];
 
 export const ContactOptions = () => {
   return (
-    <Wrapper className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 md:grid-cols-3 justify-items-center mb-10">
+    <Wrapper className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 md:grid-cols-2 justify-items-center mb-10">
       {ContactOptionsData.map((item, idx) => (
         <SlideUpTransition
           custom={idx}

@@ -20,7 +20,7 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        "hero-bg": "url('../public/images/home/header/header-bg.jpg')",
+        "hero-bg": "url('../public/images/home/header/header.avif')",
       },
       fontFamily: {
         sans: ["var(--font-work-sans)"],
