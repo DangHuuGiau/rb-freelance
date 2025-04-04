@@ -89,7 +89,7 @@ export const ContactForm = () => {
 
       setIsPending(false);
       toast.success(
-        "Thank you for reaching out to us! Your inquiry has been successfully submitted. We'll get back to you as soon as possible."
+        "Thank you for reaching out to us! Your inquiry has been successfully submitted. We&apos;ll get back to you as soon as possible."
       );
       form.reset(defaultValues);
     } catch (error) {

@@ -15,11 +15,11 @@ export const CTA = () => {
           </SlideRightTransition>
           <SlideRightTransition custom={2}>
             <p className="text-[0.9rem]">
-              Your next software solution is just a click away. Whether you're
-              looking to build a custom app, explore strategic outsourcing
-              opportunities, or need expert advice, we're here to guide you
-              through every step. Start your journey by discovering our services
-              or reach out to our team for personalized support.
+              Your next software solution is just a click away. Whether
+              you&apos;re looking to build a custom app, explore strategic
+              outsourcing opportunities, or need expert advice, we&apos;re here
+              to guide you through every step. Start your journey by discovering
+              our services or reach out to our team for personalized support.
             </p>
           </SlideRightTransition>
         </div>

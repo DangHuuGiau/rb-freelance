@@ -64,7 +64,7 @@ const ContactUs = () => {
       if (!response.ok)
         throw new Error("an error occured! message unsuccessful");
 
-      toast.success("Message sent! We'll be in touch shortly.");
+      toast.success("Message sent! We&apos;ll be in touch shortly.");
     } catch (error) {
       console.log("error", error);
       toast.error("Oops! Something went wrong. Please try again.");

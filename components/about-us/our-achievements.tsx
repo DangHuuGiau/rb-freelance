@@ -8,7 +8,7 @@ const achievements = [
   {
     title: "Kickstarting Our Journey",
     description:
-      "Though we're a new team, we’re committed to bringing fresh perspectives and innovative solutions to the software development world.",
+      "Though we&apos;re a new team, we’re committed to bringing fresh perspectives and innovative solutions to the software development world.",
   },
   {
     title: "Building Trust with Our Clients",
