@@ -61,7 +61,7 @@ const Projects = () => {
                     width={486}
                     height={613}
                     alt={project.name}
-                    className="object-contain object-center mx-auto"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
 

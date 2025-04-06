@@ -5,36 +5,68 @@ export const ProjectsData: ProjectsDataType = {
   title: "featured projects",
   works: [
     {
-      imageUrl: "/images/projects/build-you.webp",
-      name: "Build You",
-      location: "Viet Nam",
+      imageUrl: "/images/projects/web-platform.avif",
+      name: "Business Web Platform",
+      location: "Remote",
       tag: "Web Development",
       description:
-        "Build You is a platform that allows users to create and sell personalized products online, such as t-shirts, mugs, and pillows, with an easy-to-use design tool. It integrates with eCommerce platforms and supports order management.",
+        "A responsive and scalable web platform built for SMEs to manage their online presence, including landing pages, blog, and customer contact features.",
     },
     {
-      imageUrl: "/images/projects/ecombest.webp",
-      name: "Ecombest LLC Landing Page",
-      location: "Viet Nam",
-      tag: "Web Development",
+      imageUrl: "/images/projects/erp-system.jpeg",
+      name: "Custom ERP System",
+      location: "Singapore",
+      tag: "ERP Solution",
       description:
-        "This landing page was developed to showcase the company's products/services, aiming to attract customers, provide clear information, and encourage actions such as sign-ups or purchases.",
+        "A tailored ERP solution for mid-size enterprises, integrating modules for inventory, HR, and accounting to streamline internal operations.",
     },
     {
-      imageUrl: "/images/projects/vela.webp",
-      name: "Vela web service",
-      location: "Viet Nam",
-      tag: "Web Development",
+      imageUrl: "/images/projects/cms-builder.avif",
+      name: "Lightweight CMS Builder",
+      location: "Remote",
+      tag: "CMS Development",
       description:
-        "VELA connects customers and logistics service providers through a single digital platform, optimizing supply chain operations.",
+        "A headless CMS built with modern frameworks, enabling easy content management and API-first delivery across multiple frontends.",
     },
     {
-      imageUrl: "/images/projects/vela.webp",
-      name: "Vela web service",
+      imageUrl: "/images/projects/defi-platform.avif",
+      name: "DeFi Swap Protocol",
+      location: "United States",
+      tag: "Blockchain",
+      description:
+        "A decentralized swap protocol on a Layer 1 blockchain, featuring token swaps, liquidity pools, and on-chain analytics dashboard.",
+    },
+    {
+      imageUrl: "/images/projects/mobile-app.avif",
+      name: "Lifestyle Mobile App",
       location: "Viet Nam",
+      tag: "Mobile App",
+      description:
+        "A cross-platform mobile app built with Flutter, offering daily task tracking, mood journal, and social sharing for personal growth.",
+    },
+    {
+      imageUrl: "/images/projects/ecommerce.avif",
+      name: "E-commerce Website",
+      location: "Malaysia",
       tag: "Web Development",
       description:
-        "VELA connects customers and logistics service providers through a single digital platform, optimizing supply chain operations.",
+        "A fully-featured e-commerce site with product catalog, cart, payment gateway integration, and admin dashboard for store management.",
+    },
+    {
+      imageUrl: "/images/projects/hrm-system.avif",
+      name: "HR Management System",
+      location: "Thailand",
+      tag: "ERP Solution",
+      description:
+        "An HRM system that handles employee profiles, time tracking, leave requests, and performance reviews, integrated with payroll.",
+    },
+    {
+      imageUrl: "/images/projects/food-delivery-app.avif",
+      name: "Food Delivery App",
+      location: "Viet Nam",
+      tag: "Mobile App",
+      description:
+        "An end-to-end food delivery platform including customer app, delivery partner app, and restaurant dashboard for order management.",
     },
   ],
 };

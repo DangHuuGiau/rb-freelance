@@ -5,12 +5,12 @@ export const ServicesData: ServicesDataType = {
   title: "IT Solutions",
   serviceList: [
     {
-      label: "Web Development",
+      label: "Web/Mobile Development",
       iconUrl: "/icons/home/services/construction.svg",
       iconUrlDark: "/icons/home/services/construction-dark.svg",
     },
     {
-      label: "Mobile Development",
+      label: "Blockchain Development",
       iconUrl: "/icons/home/services/renovation.svg",
     },
     {
