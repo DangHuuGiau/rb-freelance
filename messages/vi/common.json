@@ -1,0 +1,416 @@
+{
+  "navbar": {
+    "about-us": "Về chúng tôi",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "rights": "© Bản quyền thuộc về chúng tôi",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "email": "Email"
+  },
+  "home": {
+    "hero": {
+      "title": "Đối tác công nghệ tiếp theo của bạn – Chúng tôi làm bằng đam mê",
+      "subtitle": "Chúng tôi là một tập thể trẻ trung gồm các lập trình viên, nhà thiết kế và người giải quyết vấn đề đầy nhiệt huyết, sẵn sàng biến những ý tưởng táo bạo thành hiện thực."
+    },
+    "banner": {
+      "tag": "Chúng tôi quan tâm đến mọi giải pháp CNTT của bạn",
+      "title": "Chủ động phối hợp các giải pháp chất lượng với chuỗi cung ứng. Nhanh chóng triển khai dịch vụ web lấy khách hàng làm trung tâm.",
+      "button": "Yêu cầu bản demo"
+    },
+    "choose-us": {
+      "tag": "--- Vì sao chọn chúng tôi ---",
+      "title": "Đối tác phát triển phần mềm đáng tin cậy của bạn",
+      "description": "Tại RB Solutions, dù còn là cái tên mới, nhưng đội ngũ của chúng tôi mang đến sự đam mê và kinh nghiệm thực tiễn cho mọi dự án. Chúng tôi cam kết mang lại phần mềm hiện đại, dễ mở rộng và chất lượng cao, phù hợp với nhu cầu kinh doanh của bạn.",
+      "items": [
+        "Giải pháp linh hoạt & dễ mở rộng",
+        "Lấy khách hàng làm trung tâm",
+        "Đội ngũ phát triển Full-Stack",
+        "Thành thạo công nghệ hiện đại",
+        "Giao tiếp minh bạch",
+        "Phát triển & triển khai nhanh chóng",
+        "Hỗ trợ & bảo trì đáng tin cậy",
+        "Tập trung vào giá trị lâu dài"
+      ],
+      "cta": {
+        "path": "/about-us",
+        "label": "Tìm hiểu thêm về hành trình của chúng tôi"
+      }
+    },
+    "aboutUs": {
+      "tag": "--- Chúng tôi là ai ---",
+      "title": "Đối tác công nghệ tiếp theo của bạn – Chúng tôi làm bằng đam mê",
+      "body": [
+        "Chúng tôi là một tập thể trẻ trung gồm các lập trình viên, nhà thiết kế và người giải quyết vấn đề đầy nhiệt huyết, sẵn sàng biến những ý tưởng táo bạo thành hiện thực.",
+        "Với tinh thần học hỏi và cam kết chất lượng, chúng tôi mong muốn trở thành đối tác đáng tin cậy của bạn trong hành trình tạo nên những giải pháp số đột phá."
+      ],
+      "cta": {
+        "path": "/about-us",
+        "label": "Tìm hiểu thêm về hành trình của chúng tôi"
+      }
+    },
+    "services": {
+      "tag": "--- Dịch vụ của chúng tôi ---",
+      "title": "Dịch vụ",
+      "description": "Nâng tầm thương hiệu của bạn với những giải pháp số tiên tiến, hấp dẫn và thu hút người dùng.",
+      "serviceList": [
+        {
+          "label": "Phát triển Web / Mobile",
+          "iconUrl": "/icons/home/services/construction.svg",
+          "iconUrlDark": "/icons/home/services/construction-dark.svg"
+        },
+        {
+          "label": "Phát triển Blockchain",
+          "iconUrl": "/icons/home/services/renovation.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "Giải pháp Cloud",
+          "iconUrl": "/icons/home/services/consultation.svg",
+          "iconUrlDark": "/icons/home/services/consultation-dark.svg"
+        },
+        {
+          "label": "Dịch vụ DevOps",
+          "iconUrl": "/icons/home/services/repair.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "AI & Machine Learning",
+          "iconUrl": "/icons/home/services/architecture.svg",
+          "iconUrlDark": "/icons/home/services/architecture-dark.svg"
+        },
+        {
+          "label": "Kiểm thử & Chất lượng (QA)",
+          "iconUrl": "/icons/home/services/electric.svg",
+          "iconUrlDark": ""
+        }
+      ]
+    },
+    "projects": {
+      "tag": "--- Dự án của chúng tôi ---",
+      "title": "Dự án tiêu biểu",
+      "description": "Khám phá bộ sưu tập các dự án nổi bật mà chúng tôi đã thực hiện. Mỗi dự án thể hiện cam kết về chất lượng và hiệu quả đầu tư.",
+      "works": [
+        {
+          "imageUrl": "/images/projects/web-platform.avif",
+          "name": "Nền tảng Web doanh nghiệp",
+          "location": "Từ xa",
+          "tag": "Phát triển Web",
+          "description": "Nền tảng web đáp ứng và dễ mở rộng, giúp các doanh nghiệp vừa và nhỏ quản lý sự hiện diện trực tuyến bao gồm landing page, blog và liên hệ khách hàng."
+        },
+        {
+          "imageUrl": "/images/projects/erp-system.jpeg",
+          "name": "Hệ thống ERP tùy chỉnh",
+          "location": "Singapore",
+          "tag": "Giải pháp ERP",
+          "description": "Giải pháp ERP thiết kế riêng cho các doanh nghiệp vừa, tích hợp quản lý kho, nhân sự và kế toán giúp tối ưu hóa quy trình nội bộ."
+        },
+        {
+          "imageUrl": "/images/projects/cms-builder.avif",
+          "name": "Trình xây dựng CMS nhẹ",
+          "location": "Từ xa",
+          "tag": "Phát triển CMS",
+          "description": "Hệ thống CMS không giao diện (headless) sử dụng framework hiện đại, giúp quản lý nội dung dễ dàng và cung cấp API-first cho nhiều frontend khác nhau."
+        },
+        {
+          "imageUrl": "/images/projects/defi-platform.avif",
+          "name": "Giao thức DeFi Swap",
+          "location": "Hoa Kỳ",
+          "tag": "Blockchain",
+          "description": "Giao thức hoán đổi phi tập trung trên blockchain Layer 1, hỗ trợ swap token, bể thanh khoản và bảng điều khiển phân tích trực tiếp trên chuỗi."
+        },
+        {
+          "imageUrl": "/images/projects/mobile-app.avif",
+          "name": "Ứng dụng di động phong cách sống",
+          "location": "Việt Nam",
+          "tag": "Ứng dụng di động",
+          "description": "Ứng dụng đa nền tảng phát triển bằng Flutter, hỗ trợ theo dõi công việc hằng ngày, ghi nhật ký cảm xúc và chia sẻ xã hội để phát triển bản thân."
+        },
+        {
+          "imageUrl": "/images/projects/ecommerce.avif",
+          "name": "Website thương mại điện tử",
+          "location": "Malaysia",
+          "tag": "Phát triển Web",
+          "description": "Trang thương mại điện tử đầy đủ tính năng với danh mục sản phẩm, giỏ hàng, tích hợp cổng thanh toán và bảng điều khiển quản trị."
+        },
+        {
+          "imageUrl": "/images/projects/hrm-system.avif",
+          "name": "Hệ thống quản lý nhân sự",
+          "location": "Thái Lan",
+          "tag": "Giải pháp ERP",
+          "description": "Hệ thống HRM xử lý hồ sơ nhân viên, chấm công, xin nghỉ phép và đánh giá hiệu suất, tích hợp cùng hệ thống trả lương."
+        },
+        {
+          "imageUrl": "/images/projects/food-delivery-app.avif",
+          "name": "Ứng dụng giao đồ ăn",
+          "location": "Việt Nam",
+          "tag": "Ứng dụng di động",
+          "description": "Nền tảng giao đồ ăn hoàn chỉnh gồm ứng dụng khách hàng, đối tác giao hàng và bảng điều khiển quản lý nhà hàng."
+        }
+      ],
+      "cta": {
+        "path": "/projects",
+        "label": "Xem tất cả dự án"
+      }
+    },
+    "testimonials": {
+      "tag": "--- Khách hàng nói gì về chúng tôi ---",
+      "title": "Cảm nhận từ khách hàng",
+      "description": "Tại RB Solutions, chúng tôi cam kết mang đến các dự án và dịch vụ công nghệ vượt mong đợi. Cùng nghe chia sẻ từ những khách hàng đã tin tưởng và đồng hành cùng chúng tôi.",
+      "reviews": [
+        {
+          "name": "Nguyễn Văn Minh",
+          "role": "Giám đốc Kỹ thuật",
+          "comment": "RB Solutions là một đối tác đáng tin cậy. Họ luôn đưa ra các giải pháp tối ưu và hoàn thành dự án đúng hạn với chất lượng vượt mong đợi."
+        },
+        {
+          "name": "Trần Thị Lan",
+          "role": "Quản lý Dự án",
+          "comment": "Làm việc với RB Solutions là một trải nghiệm tuyệt vời. Đội ngũ chuyên nghiệp, làm việc hiệu quả và luôn đảm bảo kết quả chính xác, đúng thời gian."
+        },
+        {
+          "name": "Lê Minh Tuấn",
+          "role": "Kỹ sư phần mềm",
+          "comment": "Tôi ấn tượng với chuyên môn kỹ thuật và sự sáng tạo của đội ngũ RB Solutions. Họ giải quyết các vấn đề phức tạp một cách hiệu quả, đảm bảo thành công cho dự án."
+        },
+        {
+          "name": "Phạm Ngọc Mai",
+          "role": "Giám đốc điều hành",
+          "comment": "RB Solutions rất chuyên nghiệp, bàn giao dự án nhanh chóng với chi phí hợp lý. Tôi hoàn toàn hài lòng về chất lượng dịch vụ mà họ mang lại."
+        }
+      ]
+    },
+    "contactUs": {
+      "tag": "Bắt đầu hành trình công nghệ của bạn hôm nay",
+      "description": "Giải pháp phần mềm tiếp theo của bạn chỉ cách một cú nhấp chuột. Dù bạn đang cần xây dựng ứng dụng tùy chỉnh, khám phá cơ hội outsourcing chiến lược hay tìm kiếm lời khuyên chuyên môn – chúng tôi luôn sẵn sàng đồng hành cùng bạn trong từng bước đi. Hãy khám phá dịch vụ của chúng tôi hoặc liên hệ để nhận được hỗ trợ phù hợp.",
+      "cta": {
+        "path": "/contact",
+        "label": "Liên hệ ngay"
+      }
+    }
+  },
+  "aboutUs": {
+    "header": {
+      "tag": "về chúng tôi",
+      "title": "Thúc đẩy đổi mới số bằng sự xuất sắc trong công nghệ",
+      "description": "Chúng tôi là một công ty phát triển phần mềm hàng đầu, chuyên cung cấp các giải pháp công nghệ tiên tiến. Đội ngũ lập trình viên, nhà thiết kế và kỹ sư của chúng tôi luôn hợp tác chặt chẽ để biến ý tưởng của bạn thành những ứng dụng mạnh mẽ, có khả năng mở rộng và thúc đẩy tăng trưởng doanh nghiệp."
+    },
+    "ourHistory": {
+      "tag": "--- hành trình phát triển ---",
+      "paragraphs": [
+        "Khởi đầu từ niềm đam mê công nghệ, chúng tôi bắt đầu hành trình với một nhóm nhỏ đầy nhiệt huyết, luôn nỗ lực mang đến những giải pháp phần mềm tối ưu, phù hợp nhu cầu từng khách hàng.",
+        "Với sự kiên trì và tinh thần học hỏi không ngừng, chúng tôi đã phát triển thành đối tác đáng tin cậy, cung cấp dịch vụ phần mềm sáng tạo giúp doanh nghiệp mở rộng và phát triển bền vững.",
+        "Chúng tôi đã tham gia nhiều dự án đa dạng, từ ứng dụng tùy chỉnh đến tư vấn công nghệ, luôn đặt chất lượng, tính mở rộng và độ tin cậy lên hàng đầu.",
+        "Trên hành trình phát triển, chúng tôi vẫn giữ vững cam kết cung cấp các giải pháp công nghệ tiên tiến, lấy khách hàng làm trung tâm và hướng tới sự hợp tác dài lâu."
+      ],
+      "mainImageUrl": "/images/home/about-us/team.avif"
+    },
+    "contactUs": {
+      "tag": "Bắt đầu hành trình công nghệ của bạn hôm nay",
+      "description": "Giải pháp phần mềm tiếp theo của bạn chỉ cách một cú nhấp chuột. Dù bạn muốn xây dựng ứng dụng tùy chỉnh, tìm hiểu cơ hội outsourcing chiến lược, hay cần lời khuyên chuyên môn — chúng tôi luôn sẵn sàng đồng hành. Hãy khám phá dịch vụ của chúng tôi hoặc liên hệ để được hỗ trợ tận tình.",
+      "cta": {
+        "path": "/contact",
+        "label": "Liên hệ với chúng tôi"
+      }
+    },
+    "coreValues": {
+      "tag": "--- giá trị cốt lõi ---",
+      "title": "Giá trị cốt lõi của chúng tôi",
+      "description": "Chúng tôi luôn nỗ lực cung cấp các giải pháp phần mềm tiên tiến với tinh thần hợp tác, đổi mới và phát triển không ngừng. Đây là những nguyên tắc cốt lõi định hướng mọi dự án và giá trị chúng tôi mang đến cho khách hàng.",
+      "values": [
+        {
+          "title": "Hợp tác xuất sắc",
+          "description": "Chúng tôi tin rằng những giải pháp tốt nhất đến từ sự hợp tác chặt chẽ với khách hàng, thấu hiểu nhu cầu và cùng nhau xây dựng sản phẩm."
+        },
+        {
+          "title": "Đổi mới là trọng tâm",
+          "description": "Chúng tôi luôn đón nhận công nghệ mới và giải pháp sáng tạo để tạo ra các sản phẩm phần mềm tiên tiến, sẵn sàng cho tương lai."
+        },
+        {
+          "title": "Trách nhiệm & Minh bạch",
+          "description": "Chúng tôi luôn giữ lời hứa, chịu trách nhiệm với sản phẩm của mình và làm việc dựa trên sự trung thực, minh bạch."
+        },
+        {
+          "title": "Đam mê học hỏi",
+          "description": "Chúng tôi không ngừng phát triển, luôn sẵn sàng học hỏi và cập nhật những xu hướng công nghệ mới nhất."
+        },
+        {
+          "title": "Đồng cảm & Phát triển",
+          "description": "Chúng tôi trân trọng sự phát triển cá nhân và nghề nghiệp, tạo môi trường giúp mọi người phát triển kỹ năng và đạt được tiềm năng của mình."
+        },
+        {
+          "title": "Tạo ra giá trị tích cực",
+          "description": "Chúng tôi hướng tới xây dựng văn hóa làm việc tích cực, hỗ trợ lẫn nhau và luôn ghi nhận những thành quả đạt được."
+        }
+      ]
+    },
+    "ourAchievements": {
+      "tag": "--- cột mốc và phát triển ---",
+      "title": "Thành tựu của chúng tôi",
+      "description": "Dù còn non trẻ, chúng tôi tự hào với những cột mốc đã đạt được trong thời gian ngắn. Sự phát triển này là minh chứng cho đam mê và sự cam kết của chúng tôi trong việc mang đến các giải pháp phần mềm chất lượng.",
+      "achievements": [
+        {
+          "title": "Khởi đầu hành trình",
+          "description": "Dù là một đội ngũ mới, chúng tôi cam kết mang đến những góc nhìn mới mẻ và giải pháp sáng tạo trong lĩnh vực phát triển phần mềm."
+        },
+        {
+          "title": "Xây dựng niềm tin với khách hàng",
+          "description": "Chúng tôi luôn chú trọng xây dựng mối quan hệ bền vững và tin cậy với từng khách hàng, đảm bảo hiện thực hóa ý tưởng một cách chỉn chu và tận tâm."
+        },
+        {
+          "title": "Không ngừng đổi mới và phát triển",
+          "description": "Chúng tôi liên tục học hỏi và thích nghi, luôn đam mê công nghệ để tạo nên những giải pháp hiện đại cho từng dự án."
+        }
+      ]
+    },
+    "team": {
+      "tag": "Gặp gỡ đội ngũ tuyệt vời của chúng tôi"
+    }
+  },
+  "projects": {
+    "header": {
+      "tag": "Chuyên môn của chúng tôi",
+      "title": "Xây dựng các giải pháp phần mềm sáng tạo cho tương lai",
+      "description": "Khám phá danh mục các dự án phần mềm chất lượng cao — nơi chuyên môn kỹ thuật kết hợp với tư duy giải quyết vấn đề sáng tạo, mang lại giá trị và khả năng mở rộng cho doanh nghiệp toàn cầu."
+    },
+    "services": {
+      "tag": "--- Dịch vụ của chúng tôi ---",
+      "title": "Dịch vụ",
+      "description": "Nâng tầm thương hiệu của bạn với những giải pháp số tiên tiến, hấp dẫn và thu hút người dùng.",
+      "serviceList": [
+        {
+          "label": "Phát triển Web / Mobile",
+          "iconUrl": "/icons/home/services/construction.svg",
+          "iconUrlDark": "/icons/home/services/construction-dark.svg"
+        },
+        {
+          "label": "Phát triển Blockchain",
+          "iconUrl": "/icons/home/services/renovation.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "Giải pháp Cloud",
+          "iconUrl": "/icons/home/services/consultation.svg",
+          "iconUrlDark": "/icons/home/services/consultation-dark.svg"
+        },
+        {
+          "label": "Dịch vụ DevOps",
+          "iconUrl": "/icons/home/services/repair.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "AI & Machine Learning",
+          "iconUrl": "/icons/home/services/architecture.svg",
+          "iconUrlDark": "/icons/home/services/architecture-dark.svg"
+        },
+        {
+          "label": "Kiểm thử & Chất lượng (QA)",
+          "iconUrl": "/icons/home/services/electric.svg",
+          "iconUrlDark": ""
+        }
+      ]
+    },
+    "display": {
+      "tag": "Tại RB Solutions",
+      "title": "Chúng tôi đã may mắn được hợp tác với nhiều khách hàng đa dạng, mang đến những dự án nổi bật góp phần vào thành công của họ.",
+      "description": "Dưới đây là một số dự án tiêu biểu mà chúng tôi đã thực hiện:"
+    },
+    "contactUs": {
+      "tag": "Bắt đầu hành trình công nghệ của bạn hôm nay",
+      "description": "Giải pháp phần mềm tiếp theo của bạn chỉ cách một cú nhấp chuột. Dù bạn muốn xây dựng ứng dụng tùy chỉnh, tìm hiểu cơ hội outsourcing chiến lược, hay cần lời khuyên chuyên môn — chúng tôi luôn sẵn sàng đồng hành. Hãy khám phá dịch vụ của chúng tôi hoặc liên hệ để được hỗ trợ tận tình.",
+      "cta": {
+        "path": "/contact",
+        "label": "Liên hệ với chúng tôi"
+      }
+    },
+    "works": [
+      {
+        "imageUrl": "/images/projects/web-platform.avif",
+        "name": "Nền tảng Web Doanh Nghiệp",
+        "location": "Làm việc từ xa",
+        "tag": "Phát triển Web",
+        "description": "Nền tảng web linh hoạt và dễ mở rộng dành cho các doanh nghiệp vừa và nhỏ quản lý hiện diện trực tuyến, gồm landing page, blog, và tính năng liên hệ khách hàng."
+      },
+      {
+        "imageUrl": "/images/projects/erp-system.jpeg",
+        "name": "Hệ thống ERP tùy chỉnh",
+        "location": "Singapore",
+        "tag": "Giải pháp ERP",
+        "description": "Giải pháp ERP được tùy chỉnh cho doanh nghiệp vừa, tích hợp các mô-đun như quản lý kho, nhân sự và kế toán để tối ưu hóa vận hành nội bộ."
+      },
+      {
+        "imageUrl": "/images/projects/cms-builder.avif",
+        "name": "Trình tạo CMS nhẹ",
+        "location": "Làm việc từ xa",
+        "tag": "Phát triển CMS",
+        "description": "CMS dạng headless được xây dựng với công nghệ hiện đại, giúp quản lý nội dung dễ dàng và cung cấp dữ liệu API-first đến nhiều frontend khác nhau."
+      },
+      {
+        "imageUrl": "/images/projects/defi-platform.avif",
+        "name": "Giao thức DeFi Swap",
+        "location": "Hoa Kỳ",
+        "tag": "Blockchain",
+        "description": "Một giao thức swap phi tập trung trên blockchain lớp 1, hỗ trợ hoán đổi token, pool thanh khoản và bảng phân tích dữ liệu on-chain."
+      },
+      {
+        "imageUrl": "/images/projects/mobile-app.avif",
+        "name": "Ứng dụng di động phong cách sống",
+        "location": "Việt Nam",
+        "tag": "Ứng dụng di động",
+        "description": "Ứng dụng di động đa nền tảng phát triển bằng Flutter, hỗ trợ theo dõi công việc hàng ngày, ghi chú cảm xúc và chia sẻ với cộng đồng."
+      },
+      {
+        "imageUrl": "/images/projects/ecommerce.avif",
+        "name": "Website Thương mại điện tử",
+        "location": "Malaysia",
+        "tag": "Phát triển Web",
+        "description": "Trang web TMĐT đầy đủ tính năng: danh mục sản phẩm, giỏ hàng, tích hợp thanh toán, và bảng điều khiển quản trị cho chủ cửa hàng."
+      },
+      {
+        "imageUrl": "/images/projects/hrm-system.avif",
+        "name": "Hệ thống Quản lý Nhân sự",
+        "location": "Thái Lan",
+        "tag": "Giải pháp ERP",
+        "description": "Hệ thống quản lý nhân sự tích hợp thông tin nhân viên, chấm công, xin nghỉ và đánh giá hiệu suất, kết hợp với hệ thống tính lương."
+      },
+      {
+        "imageUrl": "/images/projects/food-delivery-app.avif",
+        "name": "Ứng dụng giao đồ ăn",
+        "location": "Việt Nam",
+        "tag": "Ứng dụng di động",
+        "description": "Nền tảng giao đồ ăn toàn diện gồm ứng dụng cho khách hàng, đối tác giao hàng và dashboard cho nhà hàng quản lý đơn hàng."
+      }
+    ]
+  },
+  "contact": {
+    "header": {
+      "tag": "Liên hệ",
+      "title": "Liên hệ với RB Solutions",
+      "description": "Cảm ơn bạn đã ghé thăm trang Liên hệ của chúng tôi. Dù bạn có câu hỏi, góp ý hay đang cần hỗ trợ dự án — chúng tôi luôn sẵn sàng lắng nghe và hợp tác. Đừng ngần ngại, hãy bắt đầu cuộc trò chuyện với chúng tôi hôm nay!"
+    },
+    "form": {
+      "name": {
+        "label": "Tên của bạn",
+        "placeholder": "Nhập tên của bạn"
+      },
+      "email": {
+        "label": "Email của bạn",
+        "placeholder": "Nhập email của bạn"
+      },
+      "message": {
+        "label": "Tin nhắn của bạn",
+        "placeholder": "Nhập nội dung tin nhắn"
+      },
+      "submitButton": {
+        "label": "Gửi tin nhắn"
+      }
+    }
+  },
+
+  "languageSwitcher": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  }
+}

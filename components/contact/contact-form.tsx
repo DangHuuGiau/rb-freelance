@@ -29,12 +29,6 @@ import {
 } from "../ui/select";
 import { Textarea } from "../ui/textarea";
 
-// const initialState = {
-//   message: "",
-//   status: "",
-//   errors: null || undefined,
-// };
-
 const defaultValues = {
   firstName: "",
   lastName: "",

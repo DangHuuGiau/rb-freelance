@@ -4,35 +4,32 @@ import { cn } from "@/lib/utils";
 import { ProjectsData } from "@/data/projects";
 import { SlideUpTransition } from "../slide-transitions";
 
-export const ProjectsDisplay = () => {
+export const ProjectsDisplay = ({ t }: { t: (key: string) => string }) => {
   return (
     <section className="py-12 border-y">
       <Wrapper className="space-y-12">
         <div className="space-y-6 text-center">
           <SlideUpTransition className="max-w-3xl space-y-2 mx-auto">
             <h2 className="text-2xl font-medium text-headerFg">
-              At RB Freelance
+              {t("display.tag")}
             </h2>
-            <p>
-              We&apos;ve been fortunate to collaborate with a diverse array of
-              clients, delivering outstanding projects that drive success.
-            </p>
+            <p>{t("display.title")}</p>
           </SlideUpTransition>
           <SlideUpTransition className="px-3 py-1.5 bg-secondaryBg rounded-md text-headerFg w-fit text-sm mx-auto">
-            Here are some standout examples of our remarkable projects:
+            {t("display.description")}
           </SlideUpTransition>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 border border-b-0">
-          {ProjectsData.works.map((item, idx) => (
-            <SlideUpTransition key={idx} custom={idx}>
+          {Array.from({ length: 8 }).map((_, i) => (
+            <SlideUpTransition key={i} custom={i}>
               <ProjectCard
-                idx={idx}
-                projectName={item.name}
-                projectTag={item.tag}
-                imageUrl={item.imageUrl}
-                projectDescription={item.description}
-                projectLocation={item.location}
+                idx={i}
+                projectName={t(`works.${i}.name`)}
+                projectTag={t(`works.${i}.tag`)}
+                imageUrl={t(`works.${i}.imageUrl`)}
+                projectDescription={t(`works.${i}..description`)}
+                projectLocation={t(`works.${i}..location`)}
               />
             </SlideUpTransition>
           ))}

@@ -1,0 +1,415 @@
+{
+  "navbar": {
+    "about-us": "About Us",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Next Tech Partner, Fueled by Passion",
+      "subtitle": "We're a fresh team of passionate developers, designers, and problem solvers ready to bring bold ideas to life."
+    },
+    "banner": {
+      "tag": "We Care Your any IT Solution",
+      "title": "Proactively coordinate quality quality vectors vis-a-vis supply chains. Quickly engage client-centric web services.",
+      "button": "Request For Demo"
+    },
+    "choose-us": {
+      "tag": "--- Why Choose Us ---",
+      "title": "Your Trusted Partner in Software Development",
+      "description": "At RB Solutions, we may be a new name, but our team brings strong passion and practical experience to every project. We are committed to delivering modern, scalable, and high-quality software tailored to your business needs.",
+      "items": [
+        "Agile & Scalable Solutions",
+        "Customer-Centric Approach",
+        "Full-Stack Development Team",
+        "Modern Tech Stack Expertise",
+        "Transparent Communication",
+        "Rapid Prototyping & Delivery",
+        "Reliable Support & Maintenance",
+        "Focus on Long-Term Value"
+      ],
+      "cta": {
+        "path": "/about-us",
+        "label": "More on our history"
+      }
+    },
+    "aboutUs": {
+      "tag": "--- Who we are ---",
+      "title": "Your Next Tech Partner, Fueled by Passion",
+      "body": [
+        "We're a fresh team of passionate developers, designers, and problem solvers ready to bring bold ideas to life.",
+        "Driven by curiosity and a commitment to quality, we aim to become your trusted partner in building impactful digital solutions."
+      ],
+      "cta": {
+        "path": "/about-us",
+        "label": "More on our history"
+      }
+    },
+    "services": {
+      "tag": "--- Our services ---",
+      "title": "Services",
+      "description": "Elevate your brand with our cutting-edge digital solutions designed to captivate and enthrall your audience.",
+      "serviceList": [
+        {
+          "label": "Web/Mobile Development",
+          "iconUrl": "/icons/home/services/construction.svg",
+          "iconUrlDark": "/icons/home/services/construction-dark.svg"
+        },
+        {
+          "label": "Blockchain Development",
+          "iconUrl": "/icons/home/services/renovation.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "Cloud Solutions",
+          "iconUrl": "/icons/home/services/consultation.svg",
+          "iconUrlDark": "/icons/home/services/consultation-dark.svg"
+        },
+        {
+          "label": "DevOps Services",
+          "iconUrl": "/icons/home/services/repair.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "AI & Machine Learning",
+          "iconUrl": "/icons/home/services/architecture.svg",
+          "iconUrlDark": "/icons/home/services/architecture-dark.svg"
+        },
+        {
+          "label": "QA & Testing",
+          "iconUrl": "/icons/home/services/electric.svg",
+          "iconUrlDark": ""
+        }
+      ]
+    },
+    "projects": {
+      "tag": "--- Our projects ---",
+      "title": "Our Projects",
+      "description": "Discover our curated collection of standout projects. Each listing showcases remarkable constructions and investments available through our company.",
+      "works": [
+        {
+          "imageUrl": "/images/projects/web-platform.avif",
+          "name": "Business Web Platform",
+          "location": "Remote",
+          "tag": "Web Development",
+          "description": "A responsive and scalable web platform built for SMEs to manage their online presence, including landing pages, blog, and customer contact features."
+        },
+        {
+          "imageUrl": "/images/projects/erp-system.jpeg",
+          "name": "Custom ERP System",
+          "location": "Singapore",
+          "tag": "ERP Solution",
+          "description": "A tailored ERP solution for mid-size enterprises, integrating modules for inventory, HR, and accounting to streamline internal operations."
+        },
+        {
+          "imageUrl": "/images/projects/cms-builder.avif",
+          "name": "Lightweight CMS Builder",
+          "location": "Remote",
+          "tag": "CMS Development",
+          "description": "A headless CMS built with modern frameworks, enabling easy content management and API-first delivery across multiple frontends."
+        },
+        {
+          "imageUrl": "/images/projects/defi-platform.avif",
+          "name": "DeFi Swap Protocol",
+          "location": "United States",
+          "tag": "Blockchain",
+          "description": "A decentralized swap protocol on a Layer 1 blockchain, featuring token swaps, liquidity pools, and on-chain analytics dashboard."
+        },
+        {
+          "imageUrl": "/images/projects/mobile-app.avif",
+          "name": "Lifestyle Mobile App",
+          "location": "Viet Nam",
+          "tag": "Mobile App",
+          "description": "A cross-platform mobile app built with Flutter, offering daily task tracking, mood journal, and social sharing for personal growth."
+        },
+        {
+          "imageUrl": "/images/projects/ecommerce.avif",
+          "name": "E-commerce Website",
+          "location": "Malaysia",
+          "tag": "Web Development",
+          "description": "A fully-featured e-commerce site with product catalog, cart, payment gateway integration, and admin dashboard for store management."
+        },
+        {
+          "imageUrl": "/images/projects/hrm-system.avif",
+          "name": "HR Management System",
+          "location": "Thailand",
+          "tag": "ERP Solution",
+          "description": "An HRM system that handles employee profiles, time tracking, leave requests, and performance reviews, integrated with payroll."
+        },
+        {
+          "imageUrl": "/images/projects/food-delivery-app.avif",
+          "name": "Food Delivery App",
+          "location": "Viet Nam",
+          "tag": "Mobile App",
+          "description": "An end-to-end food delivery platform including customer app, delivery partner app, and restaurant dashboard for order management."
+        }
+      ],
+      "cta": {
+        "path": "/projects",
+        "label": "View all Projects"
+      }
+    },
+    "testimonials": {
+      "tag": "--- What our clients say ---",
+      "title": "What our Clients say About us",
+      "description": "At RB Solutions, we're dedicated to delivering exceptional construction projects and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us.",
+      "reviews": [
+        {
+          "name": "Nguyen Van Minh",
+          "role": "Technical Director",
+          "comment": "RB Solutions has been a reliable partner for us. They always provide optimal solutions and complete projects on time with quality beyond our expectations."
+        },
+        {
+          "name": "Tran Thi Lan",
+          "role": "Project Manager",
+          "comment": "Working with RB Solutions has been a great experience. Their team is professional, efficient, and always delivers accurate and timely results."
+        },
+        {
+          "name": "Le Minh Tuan",
+          "role": "Software Engineer",
+          "comment": "We were impressed by the technical expertise and creativity of RB Solutions. Their team efficiently solved complex issues, ensuring the success of our project."
+        },
+        {
+          "name": "Pham Ngoc Mai",
+          "role": "CEO",
+          "comment": "The RB Solutions team is very professional and quick in delivering our project at a reasonable cost. The quality of their work is always assured, and I am fully satisfied with their services."
+        }
+      ]
+    },
+    "contactUs": {
+      "tag": "Embark on Your Tech Journey Today",
+      "description": "Your next software solution is just a click away. Whether you're looking to build a custom app, explore strategic outsourcing opportunities, or need expert advice, we're here to guide you through every step. Start your journey by discovering our services or reach out to our team for personalized support.",
+      "cta": {
+        "path": "/contact",
+        "label": "Contact Us"
+      }
+    }
+  },
+  "aboutUs": {
+    "header": {
+      "tag": "about us",
+      "title": "Empowering Digital Innovation Through Technology Excellence",
+      "description": "We are a leading software development company specializing in delivering cutting-edge solutions. Our team of expert developers, designers, and engineers works collaboratively to transform your ideas into powerful, scalable applications that drive business growth."
+    },
+    "ourHistory": {
+      "tag": "--- our history ---",
+      "paragraphs": [
+        "Founded with a passion for technology, our journey began as a small, driven team aiming to provide exceptional software solutions tailored to client needs.",
+        "Through dedication and continuous learning, we grew into a trusted partner, offering innovative software development services that empower businesses to scale and succeed.",
+        "Our team has worked on diverse projects, from custom applications to tech consulting, always focused on delivering high-quality, scalable, and reliable solutions.",
+        "As we continue to expand, we remain committed to providing cutting-edge technology solutions, guided by a client-first mentality, and focused on long-term collaboration and success."
+      ],
+      "mainImageUrl": "/images/home/about-us/team.avif"
+    },
+    "contactUs": {
+      "tag": "Embark on Your Tech Journey Today",
+      "description": "Your next software solution is just a click away. Whether you're looking to build a custom app, explore strategic outsourcing opportunities, or need expert advice, we're here to guide you through every step. Start your journey by discovering our services or reach out to our team for personalized support.",
+      "cta": {
+        "path": "/contact",
+        "label": "Contact Us"
+      }
+    },
+    "coreValues": {
+      "tag": "--- Our Core Principles ---",
+      "title": "Our Core Values",
+      "description": "We strive to deliver cutting-edge software solutions with a focus on collaboration, innovation, and continuous growth. Our core values guide every project we take on and influence the impact we create for our clients.",
+      "values": [
+        {
+          "title": "Collaborative Excellence",
+          "description": "We believe that the best solutions come from working closely with our clients, understanding their needs, and building together."
+        },
+        {
+          "title": "Innovation at Heart",
+          "description": "We embrace new technologies and creative problem-solving to build innovative, future-proof software solutions."
+        },
+        {
+          "title": "Accountability & Integrity",
+          "description": "We take full responsibility for our work and believe in delivering on our promises with honesty and transparency."
+        },
+        {
+          "title": "Passion for Learning",
+          "description": "We are constantly evolving, always eager to learn, and committed to staying ahead of the curve with the latest in software development."
+        },
+        {
+          "title": "Empathy & Growth",
+          "description": "We value personal and professional growth, striving to create an environment where everyone can develop their skills and achieve their potential."
+        },
+        {
+          "title": "Positive Impact",
+          "description": "We are committed to fostering a supportive and positive work culture that celebrates achievements and promotes well-being."
+        }
+      ]
+    },
+    "ourAchievements": {
+      "tag": "--- our milestones and growth ---",
+      "title": "Our Achievements",
+      "description": "While we're just starting out, we're proud of the milestones we've achieved in such a short time. Our growth reflects our dedication and passion for delivering quality software solutions.",
+      "achievements": [
+        {
+          "title": "Kickstarting Our Journey",
+          "description": "Though we're a new team, we’re committed to bringing fresh perspectives and innovative solutions to the software development world."
+        },
+        {
+          "title": "Building Trust with Our Clients",
+          "description": "We may be new, but we’re dedicated to establishing strong, trustworthy relationships with every client, ensuring that their vision is brought to life with precision and care."
+        },
+        {
+          "title": "Innovating and Growing",
+          "description": "We’re constantly learning and adapting, with a passion for technology that drives us to innovate and develop cutting-edge solutions for every project."
+        }
+      ]
+    },
+    "team": {
+      "tag": "Meet our amazing team"
+    }
+  },
+  "projects": {
+    "header": {
+      "tag": "Our Expertise",
+      "title": "Crafting Innovative Software Solutions for the Future",
+      "description": "Discover a portfolio of high-quality software projects where technical expertise meets creative problem solving, delivering value and scalability to businesses worldwide."
+    },
+    "services": {
+      "tag": "--- Our services ---",
+      "title": "Services",
+      "description": "Elevate your brand with our cutting-edge digital solutions designed to captivate and enthrall your audience.",
+      "serviceList": [
+        {
+          "label": "Web/Mobile Development",
+          "iconUrl": "/icons/home/services/construction.svg",
+          "iconUrlDark": "/icons/home/services/construction-dark.svg"
+        },
+        {
+          "label": "Blockchain Development",
+          "iconUrl": "/icons/home/services/renovation.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "Cloud Solutions",
+          "iconUrl": "/icons/home/services/consultation.svg",
+          "iconUrlDark": "/icons/home/services/consultation-dark.svg"
+        },
+        {
+          "label": "DevOps Services",
+          "iconUrl": "/icons/home/services/repair.svg",
+          "iconUrlDark": ""
+        },
+        {
+          "label": "AI & Machine Learning",
+          "iconUrl": "/icons/home/services/architecture.svg",
+          "iconUrlDark": "/icons/home/services/architecture-dark.svg"
+        },
+        {
+          "label": "QA & Testing",
+          "iconUrl": "/icons/home/services/electric.svg",
+          "iconUrlDark": ""
+        }
+      ]
+    },
+    "display": {
+      "tag": "At RB Solutions",
+      "title": "We've been fortunate to collaborate with a diverse array of clients, delivering outstanding projects that drive success.",
+      "description": "Here are some standout examples of our remarkable projects:"
+    },
+    "contactUs": {
+      "tag": "Embark on Your Tech Journey Today",
+      "description": "Your next software solution is just a click away. Whether you're looking to build a custom app, explore strategic outsourcing opportunities, or need expert advice, we're here to guide you through every step. Start your journey by discovering our services or reach out to our team for personalized support.",
+      "cta": {
+        "path": "/contact",
+        "label": "Contact Us"
+      }
+    },
+    "works": [
+      {
+        "imageUrl": "/images/projects/web-platform.avif",
+        "name": "Business Web Platform",
+        "location": "Remote",
+        "tag": "Web Development",
+        "description": "A responsive and scalable web platform built for SMEs to manage their online presence, including landing pages, blog, and customer contact features."
+      },
+      {
+        "imageUrl": "/images/projects/erp-system.jpeg",
+        "name": "Custom ERP System",
+        "location": "Singapore",
+        "tag": "ERP Solution",
+        "description": "A tailored ERP solution for mid-size enterprises, integrating modules for inventory, HR, and accounting to streamline internal operations."
+      },
+      {
+        "imageUrl": "/images/projects/cms-builder.avif",
+        "name": "Lightweight CMS Builder",
+        "location": "Remote",
+        "tag": "CMS Development",
+        "description": "A headless CMS built with modern frameworks, enabling easy content management and API-first delivery across multiple frontends."
+      },
+      {
+        "imageUrl": "/images/projects/defi-platform.avif",
+        "name": "DeFi Swap Protocol",
+        "location": "United States",
+        "tag": "Blockchain",
+        "description": "A decentralized swap protocol on a Layer 1 blockchain, featuring token swaps, liquidity pools, and on-chain analytics dashboard."
+      },
+      {
+        "imageUrl": "/images/projects/mobile-app.avif",
+        "name": "Lifestyle Mobile App",
+        "location": "Viet Nam",
+        "tag": "Mobile App",
+        "description": "A cross-platform mobile app built with Flutter, offering daily task tracking, mood journal, and social sharing for personal growth."
+      },
+      {
+        "imageUrl": "/images/projects/ecommerce.avif",
+        "name": "E-commerce Website",
+        "location": "Malaysia",
+        "tag": "Web Development",
+        "description": "A fully-featured e-commerce site with product catalog, cart, payment gateway integration, and admin dashboard for store management."
+      },
+      {
+        "imageUrl": "/images/projects/hrm-system.avif",
+        "name": "HR Management System",
+        "location": "Thailand",
+        "tag": "ERP Solution",
+        "description": "An HRM system that handles employee profiles, time tracking, leave requests, and performance reviews, integrated with payroll."
+      },
+      {
+        "imageUrl": "/images/projects/food-delivery-app.avif",
+        "name": "Food Delivery App",
+        "location": "Viet Nam",
+        "tag": "Mobile App",
+        "description": "An end-to-end food delivery platform including customer app, delivery partner app, and restaurant dashboard for order management."
+      }
+    ]
+  },
+  "contact": {
+    "header": {
+      "tag": "Contact us",
+      "title": "Reach out to RB Solutions",
+      "description": "Thank you for visiting our Contact Us page. Whether you have a question, feedback, or need assistance with a project, we're here to help. Our team is always available to discuss your needs and explore ways to collaborate. Don't hesitate to reach out — let's start a conversation today!"
+    },
+    "form": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "Enter your name"
+      },
+      "email": {
+        "label": "Your Email",
+        "placeholder": "Enter your email"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Enter your message"
+      },
+      "submitButton": {
+        "label": "Send Message"
+      }
+    }
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "vi": "Vietnamese"
+  }
+}

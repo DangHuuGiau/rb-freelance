@@ -3,8 +3,15 @@
 import { ToggleProvider } from "./toggle-provider";
 import { ThemeProvider } from "next-themes";
 import { LazyMotion, domAnimation } from "framer-motion";
+import I18nProvider from "./i18n-provider";
 
-const Providers = ({ children }: { children: React.ReactNode }) => {
+interface ProvidersProps {
+  children: React.ReactNode;
+  locale: string;
+  messages: any;
+}
+
+const Providers = ({ children, locale, messages }: ProvidersProps) => {
   return (
     <>
       <LazyMotion features={domAnimation} strict>
@@ -15,7 +22,9 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <I18nProvider locale={locale} messages={messages}>
+              {children}
+            </I18nProvider>
           </ThemeProvider>
         </ToggleProvider>
       </LazyMotion>

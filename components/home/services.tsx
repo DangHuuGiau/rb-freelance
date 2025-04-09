@@ -1,36 +1,38 @@
 import SectionTag from "@/components/section-tag";
 import Wrapper from "@/components/wrapper";
-import { ServicesData } from "@/data/home/services";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { SlideRightTransition, SlideUpTransition } from "../slide-transitions";
 
-const Services = () => {
+const Services = ({ t }: { t: (key: string) => string }) => {
   return (
     <section className="bg-secondaryBg py-16 md:py-28">
-      <SectionTag>{ServicesData.tag}</SectionTag>
+      <SectionTag>{t("services.tag")}</SectionTag>
       <Wrapper className="lg:w-5/6 mx-auto mt-10">
         <SlideUpTransition custom={2} className="mb-10 text-center space-y-3">
-          <h2 className="text-2xl font-semibold text-headerFg">Services</h2>
-          <p className="text-[0.9rem]">
-            Elevate your brand with our cutting-edge digital solutions designed
-            to captivate and enthrall your audience.
-          </p>
+          <h2 className="text-2xl font-semibold text-headerFg">
+            {t("services.title")}
+          </h2>
+          <p className="text-[0.9rem]">{t("services.description")}</p>
         </SlideUpTransition>
         <ul className="grid grid-cols-1 sm:grid-cols-3 sm:gap-x-10 md:gap-x-16 gap-y-7 mx-auto">
-          {ServicesData.serviceList.map((service, idx) => (
-            <SlideRightTransition key={idx} custom={idx}>
+          {Array.from({ length: 6 }).map((_, i) => (
+            <SlideRightTransition key={i} custom={i}>
               <li
                 className={cn(
                   "flex flex-col items-center gap-3 py-7 rounded-sm",
-                  service.iconUrlDark ? "bg-background" : "bg-primary"
+                  t(`services.serviceList.${i}.iconUrlDark`)
+                    ? "bg-background"
+                    : "bg-primary"
                 )}
               >
                 <Image
                   src={
-                    service.iconUrlDark ? service.iconUrlDark : service.iconUrl
+                    t(`services.serviceList.${i}.iconUrlDark`)
+                      ? t(`services.serviceList.${i}.iconUrlDark`)
+                      : t(`services.serviceList.${i}.iconUrl`)
                   }
-                  alt={`${service.label} icon`}
+                  alt={`${t(`services.serviceList.${i}.label`)} icon`}
                   width={40}
                   height={40}
                   className="h-10 w-10"
@@ -39,10 +41,12 @@ const Services = () => {
                 <p
                   className={cn(
                     "capitalize font-medium",
-                    service.iconUrlDark ? "text-primary" : "text-white"
+                    t(`services.serviceList.${i}.iconUrlDark`)
+                      ? "text-primary"
+                      : "text-white"
                   )}
                 >
-                  {service.label}
+                  {t(`services.serviceList.${i}.label`)}
                 </p>
               </li>
             </SlideRightTransition>

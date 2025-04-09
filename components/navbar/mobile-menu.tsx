@@ -6,10 +6,14 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import ThemeToggler from "./theme-toggler";
 import { usePathname } from "next/navigation";
+import LanguageSwitcher from "../language-switcher";
+import { useTranslations } from "next-intl";
 
 const MobileMenu = () => {
   const { isOpen, handleToggle } = useToggle();
   const pathname = usePathname();
+  const t = useTranslations("navbar");
+
   return (
     <ul
       className={cn(
@@ -34,12 +38,13 @@ const MobileMenu = () => {
                 "bg-secondaryBg hover:bg-secondaryBg text-headerFg hover:text-headerFg cursor-default"
             )}
           >
-            {route.label}
+            {t(route.label.toLowerCase())}
           </Link>
         </li>
       ))}
-      <div className="absolute bottom-5">
+      <div className="absolute bottom-5 flex flex-col gap-4 items-center">
         <ThemeToggler />
+        <LanguageSwitcher />
       </div>
     </ul>
   );

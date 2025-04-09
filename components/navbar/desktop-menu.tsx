@@ -6,9 +6,13 @@ import "@/app/globals.css";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import ThemeToggler from "./theme-toggler";
+import LanguageSwitcher from "../language-switcher";
+import { useTranslations } from "next-intl";
 
 const DesktopMenu = () => {
   const pathname = usePathname();
+  const t = useTranslations("navbar");
+
   return (
     <ul className="hidden md:flex capitalize md:gap-10 lg:gap-12 md:text-sm lg:text-[15px] whitespace-nowrap items-center">
       {Routes.map((route) => (
@@ -27,11 +31,11 @@ const DesktopMenu = () => {
                 "bg-secondaryBg hover:bg-secondaryBg text-headerFg hover:text-headerFg cursor-default"
             )}
           >
-            {route.label}
+            {t(route.label)}
           </Link>
         </li>
       ))}
-
+      <LanguageSwitcher />
       <ThemeToggler />
     </ul>
   );

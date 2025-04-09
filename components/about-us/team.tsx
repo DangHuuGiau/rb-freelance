@@ -10,7 +10,7 @@ import { SlideUpTransition } from "../slide-transitions";
 const TeamData = [
   {
     name: "Phu Quoc",
-    role: "Freelance Developer",
+    role: "Team Lead",
     image: "/images/member1.webp",
     socials: {
       instagram: "https://instagram.com/phuquoc.dev",
@@ -20,7 +20,7 @@ const TeamData = [
   },
   {
     name: "Giau Dang",
-    role: "Freelance Developer",
+    role: "Fullstack Developer",
     image: "/images/member2.webp",
     socials: {
       instagram: "https://instagram.com/giaudang.dev",
@@ -28,14 +28,54 @@ const TeamData = [
       linkedin: "https://linkedin.com/in/giaudang.dev",
     },
   },
+  {
+    name: "Thanh Phuong",
+    role: "Fullstack Developer",
+    image: "/images/member3.webp",
+    socials: {
+      instagram: "https://instagram.com/thanhphuong.dev",
+      twitter: "https://twitter.com/thanhphuong.dev",
+      linkedin: "https://linkedin.com/in/thanhphuong.dev",
+    },
+  },
+  {
+    name: "Thanh Tai",
+    role: "UX/ UI Designer",
+    image: "/images/member4.webp",
+    socials: {
+      instagram: "https://instagram.com/thanhtai.dev",
+      twitter: "https://twitter.com/thanhtai.dev",
+      linkedin: "https://linkedin.com/in/thanhtai.dev",
+    },
+  },
+  {
+    name: "Quy Ngoc",
+    role: "BA / Tester",
+    image: "/images/member5.webp",
+    socials: {
+      instagram: "https://instagram.com/quyngoc.dev",
+      twitter: "https://twitter.com/quyngoc.dev",
+      linkedin: "https://linkedin.com/in/quyngoc.dev",
+    },
+  },
+  {
+    name: "Kim Ngan",
+    role: "QA / Tester / Support",
+    image: "/images/member6.webp",
+    socials: {
+      instagram: "https://instagram.com/kimngan.dev",
+      twitter: "https://twitter.com/kimngan.dev",
+      linkedin: "https://linkedin.com/in/kimngan.dev",
+    },
+  },
 ];
 
-export const Team = () => {
+export const Team = ({ t }: { t: (key: string) => string }) => {
   return (
     <section className="py-12">
       <Wrapper className="space-y-10">
         <h2 className="text-2xl font-bold max-md:text-center">
-          Meet our amazing team
+          {t("team.tag")}
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 place-items-center">
           {TeamData.map((member, idx) => (
